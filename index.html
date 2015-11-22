@@ -1,0 +1,65 @@
+---
+layout: default
+title: "SCS: Self-Contained Systems"
+---
+<h2>Introduction</h2>
+
+<p>The SCS approach is an architecture that has already worked in many projects. It
+focuses on a separation of the functionality into many independent
+systems. Thereby the whole logical system is a collaboration of many
+smaller software systems. This avoids the problem of large
+unmaintainable monoliths that grow constantly and eventually become
+unmaintainable.</p>
+
+<p>The idea is to break a large system apart into several smaller
+SCSs.<p>
+
+<script async class="speakerdeck-embed" data-id="e74a068d06a949cdb358a55ca17d2dc5" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+<h2 id="scs-characteristics">SCS Characteristics</h2>
+<ol>
+
+        <li id="autonomous">Each SCS is an <em>autonomous web
+        application</em>. All data, the logic to process that data and
+        all code to render the web interface is contained in the
+        SCS. An SCS can fulfill its primary use cases on its own,
+        without having to rely on other systems being available.</li>
+
+	<li id="one-team">The SCS is owned by <em>one team</em>. This
+	does not necessarily mean that only one team might change the
+	code but the owning team has the finale saying on what goes
+	into the code base, for example by merging pull-requests.</a> </li>
+	
+	<li id="no-sync">Communication with other SCSs or 3rd party
+	systems is <em>asynchronously only</em>. This decouples the
+	systems, reduces the effects of failure, and thus supports
+	autonomy. The goal is decoupling concerning time: SCS should
+	work even if other SCS are temporarily offline. This might be
+	achievable even if the communication on the technical level is
+	synchronously.</li>
+
+	<li id="optional-api">An SCS can have an <em>optional Service
+	API</em>. Because the SCS has its own web UI it can 
+	interact with the user &mdash; without going through a UI
+	service. However, an API for mobile clients or for other SCSs
+	might still be useful.</li>
+
+	<li id="data-and-logic">Each service must <em>include data and
+	logic</em>. To really implement any meaningful features both
+	are needed. An SCS should implement features by itself and
+	must therefore include both.</li>
+
+	<li id="no-shared-ui">An SCS should make its features usable
+	to end-users by its own UI. Therefore the SCS should have
+	<em>no shared UI</em> with other SCS. SCS might still have
+	links to each other. However,  <a href="#no-sync">asynchronous
+	integration</a> means that the SCS should still work even if
+	the UI of another SCS is not available.
+	</li>
+
+	<li id="no-code-sharing">To avoid tight coupling an SCS should
+	<em>share no code</em> with other SCSs. It might be fine to
+	create a pull-request for an SCS, but certainly no source code
+	should be shared.</li>	
+</ol>
+

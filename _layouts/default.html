@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>{{ page.title }}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- HTML5 shim, for IE6-8 support of HTML elements -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/scs.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="nine columns">
+        <header class="main">
+          <h1 class="head u-cf">
+            <a href="index.html">
+              <img class="logo" src="./img/logo.png" width="200px" alt="ROCA Logo">
+              <span class="subhead">Self-Contained Systems</span>
+            </a>
+          </h1>
+          <p class="lead">Assembling Software from Independent Systems</p>
+
+        </header>
+
+        <nav class="subnav">
+          <ul class="nav">
+	    <li role="presentation"><a href="index.html">Home</a></li>
+	    <li role="presentation"><a href="why.html">Why?</a></li>
+	    <li role="presentation"><a href="faq.html">FAQ</a></li>
+            <li role="presentation"><a href="vs-ms.html">vs. Microservice</a></li>
+    	    <li role="presentation"><a href="links.html">Links</a></li>
+            <li role="presentation"><a href="discussion.html">Discussion</a></li>
+          </ul>
+        </nav>
+
+        {{ content }}
+
+        <footer class="row">
+        	<div class="license-icons two columns">
+        		<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">
+        		  <img alt="Creative Commons License CC" width="20px"
+        		       src="./img/cc.png" />
+        			<img alt="Creative Commons License BY" width="20px"
+        		       src="./img/by.png" />
+        			<img alt="Creative Commons License SA" width="20px"
+        		       src="./img/sa.png" />
+        		</a>
+        	</div>
+        	<p class="license-text ten columns">
+        		<strong xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">SCS</strong> is licensed under a
+
+        		<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
+        	</p>
+        </footer>
+      </div>
+    </div>
+
+  </div>
+  <script charset="utf-8" type="text/javascript" src="./js/webfont.js"></script>
+  <script type="text/javascript">
+    // Webfont-loader does feature detection itself, so no Modernizr needed to guard this call.
+    WebFont.load({
+      google: {
+        families: ['Lato:400,400italic', 'Open+Sans:300,600']
+      },
+      timeout: 2000 // Set the timeout to two seconds
+    });
+  </script>
+</body>
+</html>
