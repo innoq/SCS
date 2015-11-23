@@ -27,19 +27,19 @@ SCSs.<p>
 
 	<li id="one-team">The SCS is owned by <em>one team</em>. This
 	does not necessarily mean that only one team might change the
-	code but the owning team has the finale saying on what goes
+	code but the owning team has the final say on what goes
 	into the code base, for example by merging pull-requests.</a> </li>
-	
+
 	<li id="no-sync">Communication with other SCSs or 3rd party
-	systems is <em>asynchronously only</em>. This decouples the
+	systems is <em>asynchronous only</em>. This decouples the
 	systems, reduces the effects of failure, and thus supports
 	autonomy. The goal is decoupling concerning time: SCS should
 	work even if other SCS are temporarily offline. This might be
 	achievable even if the communication on the technical level is
-	synchronously.</li>
+	synchronous.</li>
 
 	<li id="optional-api">An SCS can have an <em>optional Service
-	API</em>. Because the SCS has its own web UI it can 
+	API</em>. Because the SCS has its own web UI it can
 	interact with the user &mdash; without going through a UI
 	service. However, an API for mobile clients or for other SCSs
 	might still be useful.</li>
@@ -60,6 +60,5 @@ SCSs.<p>
 	<li id="no-code-sharing">To avoid tight coupling an SCS should
 	<em>share no code</em> with other SCSs. It might be fine to
 	create a pull-request for an SCS, but certainly no source code
-	should be shared.</li>	
+	should be shared.</li>
 </ol>
-
