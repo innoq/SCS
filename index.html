@@ -31,10 +31,12 @@ SCSs.<p>
 	into the code base, for example by merging pull-requests.</a> </li>
 
 	<li id="no-sync">Communication with other SCSs or 3rd party
-	systems is <em>asynchronous only</em>. This decouples the
+	systems is <em>asynchronous wherever possible</em>. Specifically, 
+	other SCSs or external systems should not be accessed synchronously
+	within the SCSs own request/response cycle. This decouples the
 	systems, reduces the effects of failure, and thus supports
-	autonomy. The goal is decoupling concerning time: SCS should
-	work even if other SCS are temporarily offline. This might be
+	autonomy. The goal is decoupling concerning time: An SCS should
+	work even if other SCSs are temporarily offline. This might be
 	achievable even if the communication on the technical level is
 	synchronous.</li>
 
