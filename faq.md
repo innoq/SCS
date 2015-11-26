@@ -90,6 +90,11 @@ schema can hardly be changed. The changes would need to be coordinated
 between all components that use the data and introduces a strong
 coupling that SCS should avoid.
 
+Even using separate schemas in the same database causes some coupling
+e.g. an update to the database software would influence all
+SCSs. However, all SCS can use the same backup and disaster recovery
+and thereby save ressources.
+
 ### How can I use this document?
 
 This document is licensed under a Creative Commons license,
