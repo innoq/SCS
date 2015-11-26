@@ -81,6 +81,15 @@ that means changing from one SCS/SPA to another one loads another
 application and you cannot easily share parts of the SPA/SCS in other
 SPA/SCS.
 
+### May SCS share a database?
+
+Multiple SCS might use the same database - but they must not share any
+data. So they might have completely separate schemas in the same
+physical database. Sharing a schema is not allowed - it means the
+schema can hardly be changed. The changes would need to be coordinated
+between all components that use the data and introduces a strong
+coupling that SCS should avoid.
+
 ### How can I use this document?
 
 This document is licensed under a Creative Commons license,
