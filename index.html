@@ -19,19 +19,19 @@ SCSs.<p>
 <h2 id="scs-characteristics">SCS Characteristics</h2>
 <ol>
 
-        <li id="autonomous">Each SCS is an <em>autonomous web
-        application</em>. For the SCS's domain all data, the logic to process that data and
+        <li id="autonomous">Each SCS is an <a href="#autonomous">autonomous web
+        application</a>. For the SCS's domain all data, the logic to process that data and
         all code to render the web interface is contained in the
         SCS. An SCS can fulfill its primary use cases on its own,
         without having to rely on other systems being available.</li>
 
-	<li id="one-team">The SCS is owned by <em>one team</em>. This
+	<li id="one-team">The SCS is owned by <a href="#one-team">one team</a>. This
 	does not necessarily mean that only one team might change the
 	code but the owning team has the final say on what goes
 	into the code base, for example by merging pull-requests.</a> </li>
 
-	<li id="no-sync">Communication with other SCSs or 3rd party
-	systems is <em>asynchronous wherever possible</em>. Specifically, 
+	<li id="async">Communication with other SCSs or 3rd party
+	systems is <a href="#async">asynchronous wherever possible</a>. Specifically, 
 	other SCSs or external systems should not be accessed synchronously
 	within the SCSs own request/response cycle. This decouples the
 	systems, reduces the effects of failure, and thus supports
@@ -40,27 +40,27 @@ SCSs.<p>
 	achievable even if the communication on the technical level is
 	synchronous.</li>
 
-	<li id="optional-api">An SCS can have an <em>optional Service
-	API</em>. Because the SCS has its own web UI it can
+	<li id="optional-api">An SCS can have an <a href="#optional-api">optional Service
+	API</a>. Because the SCS has its own web UI it can
 	interact with the user &mdash; without going through a UI
 	service. However, an API for mobile clients or for other SCSs
 	might still be useful.</li>
 
-	<li id="data-and-logic">Each service must <em>include data and
-	logic</em>. To really implement any meaningful features both
+	<li id="data-and-logic">Each SCS must <a href="#data-and-logic">include data and
+	logic</a>. To really implement any meaningful features both
 	are needed. An SCS should implement features by itself and
 	must therefore include both.</li>
 
 	<li id="no-shared-ui">An SCS should make its features usable
 	to end-users by its own UI. Therefore the SCS should have
-	<em>no shared UI</em> with other SCS. SCS might still have
+	<a href="#no-shared-ui">no shared UI</a> with other SCS. SCS might still have
 	links to each other. However,  <a href="#no-sync">asynchronous
 	integration</a> means that the SCS should still work even if
 	the UI of another SCS is not available.
 	</li>
 
 	<li id="no-code-sharing">To avoid tight coupling an SCS should
-	<em>share no business code</em> with other SCSs. It might be fine to
+	<a href="#no-code-sharing">share no business code</a> with other SCSs. It might be fine to
 	create a pull-request for an SCS or use common libraries
 	e.g. database drivers or oAuth clients.</li>
 </ol>
