@@ -4,15 +4,16 @@ title: "SCS: Self-Contained Systems"
 ---
 <h2>Introduction</h2>
 
-<p>The SCS approach is an architecture that has already worked in many projects. It
+<p>The Self-contained System (SCS) approach is an architecture that 
 focuses on a separation of the functionality into many independent
-systems. Thereby the whole logical system is a collaboration of many
+systems, making the complete logical system a collaboration of many
 smaller software systems. This avoids the problem of large
 unmaintainable monoliths that grow constantly and eventually become
-unmaintainable.</p>
+unmaintainable. Over the past few years, we have seen its benefits in
+many mid-sized and large-scale projects. It</p>
 
 <p>The idea is to break a large system apart into several smaller
-SCSs.<p>
+self-contained system, or SCSs, that follow certain rules.<p>
 
 <script async class="speakerdeck-embed" data-id="e74a068d06a949cdb358a55ca17d2dc5" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
@@ -21,26 +22,26 @@ SCSs.<p>
 
         <li id="autonomous">Each SCS is an <a href="#autonomous">autonomous web
         application</a>. For the SCS's domain all data, the logic to process that data and
-        all code to render the web interface is contained in the
+        all code to render the web interface is contained within the
         SCS. An SCS can fulfill its primary use cases on its own,
         without having to rely on other systems being available.</li>
 
-	<li id="one-team">The SCS is owned by <a href="#one-team">one team</a>. This
+	<li id="one-team">Each SCS is owned by <a href="#one-team">one team</a>. This
 	does not necessarily mean that only one team might change the
-	code but the owning team has the final say on what goes
-	into the code base, for example by merging pull-requests.</a> </li>
+	code, but the owning team has the final say on what goes
+	into the code base, for example by merging pull-requests.</li>
 
 	<li id="async">Communication with other SCSs or 3rd party
 	systems is <a href="#async">asynchronous wherever possible</a>. Specifically, 
 	other SCSs or external systems should not be accessed synchronously
-	within the SCSs own request/response cycle. This decouples the
+	within the SCS’s own request/response cycle. This decouples the
 	systems, reduces the effects of failure, and thus supports
 	autonomy. The goal is decoupling concerning time: An SCS should
-	work even if other SCSs are temporarily offline. This might be
-	achievable even if the communication on the technical level is
-	synchronous.</li>
+	work even if other SCSs are temporarily offline. This can be
+	achieved even if the communication on the technical level is
+	synchronous, e.g. by replicating data or buffering requests.</li>
 
-	<li id="optional-api">An SCS can have an <a href="#optional-api">optional Service
+	<li id="optional-api">An SCS can have an <a href="#optional-api">optional service
 	API</a>. Because the SCS has its own web UI it can
 	interact with the user &mdash; without going through a UI
 	service. However, an API for mobile clients or for other SCSs
