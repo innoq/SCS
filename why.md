@@ -7,7 +7,7 @@ Why SCS?
 ---
 
 There are many reasons why we think SCSs are appealing. This page gives
-and overview of the most important ones.
+an overview of the most important ones.
 
 ### Disappointed by Monoliths
 
@@ -26,7 +26,7 @@ ideally also have an impact on the development organization.
 A decision for a technology or architecture in one SCS is local to
 that SCS. Changes for new requirements should be limited to one SCS as
 it implements a functionality all by itself. Pretty much all decisions
-concerning technology and a many concerning architecture are local to a
+concerning technology and many concerning architecture are local to a
 single SCS. We have seen a lot of large monoliths fail. More
 isolation on the architectural level promises to make even large
 projects feasible.
@@ -44,7 +44,7 @@ mean that the others are compromised, too.
 
 Each SCS can run on one or multiple servers to deal with high
 load. The SCS contains also the database and does not talk to other
-SCS. So just scaling a single SCS is enough to support a larger number
+SCSs. So just scaling a single SCS is enough to support a larger number
 of requests of a certain type.
 
 ### Replaceability
@@ -64,16 +64,16 @@ technologies. Also, migrating to a new technology is easier.
 
 ### Integration with Legacy
 
-A legacy system might be enhanced with some SCS and slowly be
+A legacy system might be enhanced with some SCSs and slowly be
 migrated — without touching a lot of the code. The default integration of SCSs
-is through web UIs. It is often quite easy to integrate the SCS with the legacy
+is through web UIs. It is often quite easy to integrate the SCSs with the legacy
 system.
 
 ### Teams
 
 An SCS is usually a good unit of software for a team to work on. It
 provides a business functionality, so a team can work on stories for
-just one SCS. That way SCS can influence the organization of the
+just one SCS. That way SCSs can influence the organization of the
 project — according to [Conway's Law](http://www.melconway.com/Home/Conways_Law.html).
 
 ### Experience

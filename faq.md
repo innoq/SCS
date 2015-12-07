@@ -8,12 +8,12 @@ Frequently Asked Questions
 
 ### Why the term "SCS"?
 
-"Self-Contained System" describes best what’s at the core of the
+"Self-Contained System" describes best what's at the core of the
 concept: Each system should work by itself. Together they form a
-"System of Systems". We also haven’t seen it anywhere else, allowing
+"System of Systems". We also haven't seen it anywhere else, allowing
 us to capture it to mean one specific, hopefully well-defined thing.
 
-### Is the SCS architecture’s intent to replace other concepts?
+### Is the SCS architecture's intent to replace other concepts?
 
 No. The SCS approach can be combined with microservices for example — see
 [SCS vs. Microservices](/vs-ms.html).
@@ -45,8 +45,8 @@ Of course it is still possible to decide parts of the
 micro architecture on the global level. For example, you can decide
 that all SCSs have to use the same programming language, frameworks, or other
 technical dependencies. Whether or not you do this is a matter of your
-organization’s culture and the flexibility each SCS team is supposed to have.
-However, you should avoid making mixing up decisions for the SCSs’ micro architecture
+organization's culture and the flexibility each SCS team is supposed to have.
+However, you should avoid making mixing up decisions for the SCSs' micro architecture
 with those made at the macro architecture level.
 
 ### Each SCS has its own ideas and technology. Isn't that bound to end in chaos?
@@ -56,8 +56,8 @@ common decisions for all SCSs. Note, however, that this contradicts the idea of
 independent decisions. You need to find some compromise. Defining a
 common technology for all SCS might not be a bad idea, e.g. it makes
 refactoring across SCS easier and developers can work on more than one
-SCS at the same time. On the other hand, you want to make sure you don’t lose
-the flexibility to change your mind later for one or more SCSs only. If you’re
+SCS at the same time. On the other hand, you want to make sure you don't lose
+the flexibility to change your mind later for one or more SCSs only. If you're
 unable to do that, you get the negative effects of a monolith again.
 
 ### What about Mobile Clients or Single Page Apps (SPA)?
@@ -81,7 +81,7 @@ front ends for SCS because that approach makes it easy to combine UIs
 from several SCSs to one. You could also have one SPA per SCS, but
 this means switching from one SCS/SPA to another one loads another
 application and you cannot easily share parts of the SPA/SCS in other
-SPA/SCS. That said, we don’t rule out SPAs as a useful approach for some
+SPA/SCS. That said, we don't rule out SPAs as a useful approach for some
 of the SCSs.
 
 ### Can SCSs share a database?

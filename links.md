@@ -28,4 +28,3 @@ Links
 * [Original German article (2011)](https://www.innoq.com/de/links/softwarearchitektur-im-grossen/)
 
 * [Content on GitHub](https://github.com/innoq/SCS)
-

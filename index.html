@@ -7,10 +7,10 @@ title: "SCS: Self-Contained Systems"
 <p>The Self-contained System (SCS) approach is an architecture that 
 focuses on a separation of the functionality into many independent
 systems, making the complete logical system a collaboration of many
-smaller software systems. This avoids the problem of large
-unmaintainable monoliths that grow constantly and eventually become
-unmaintainable. Over the past few years, we have seen its benefits in
-many mid-sized and large-scale projects. It</p>
+smaller software systems. This avoids the problem of large monoliths
+that grow constantly and eventually become unmaintainable.
+Over the past few years, we have seen its benefits in many mid-sized
+and large-scale projects. It</p>
 
 <p>The idea is to break a large system apart into several smaller
 self-contained system, or SCSs, that follow certain rules.<p>
@@ -20,11 +20,11 @@ self-contained system, or SCSs, that follow certain rules.<p>
 <h2 id="scs-characteristics">SCS Characteristics</h2>
 <ol>
 
-        <li id="autonomous">Each SCS is an <a href="#autonomous">autonomous web
-        application</a>. For the SCS's domain all data, the logic to process that data and
-        all code to render the web interface is contained within the
-        SCS. An SCS can fulfill its primary use cases on its own,
-        without having to rely on other systems being available.</li>
+	<li id="autonomous">Each SCS is an <a href="#autonomous">autonomous web
+	application</a>. For the SCS's domain all data, the logic to process that data and
+	all code to render the web interface is contained within the
+	SCS. An SCS can fulfill its primary use cases on its own,
+	without having to rely on other systems being available.</li>
 
 	<li id="one-team">Each SCS is owned by <a href="#one-team">one team</a>. This
 	does not necessarily mean that only one team might change the
@@ -34,7 +34,7 @@ self-contained system, or SCSs, that follow certain rules.<p>
 	<li id="async">Communication with other SCSs or 3rd party
 	systems is <a href="#async">asynchronous wherever possible</a>. Specifically, 
 	other SCSs or external systems should not be accessed synchronously
-	within the SCS’s own request/response cycle. This decouples the
+	within the SCS's own request/response cycle. This decouples the
 	systems, reduces the effects of failure, and thus supports
 	autonomy. The goal is decoupling concerning time: An SCS should
 	work even if other SCSs are temporarily offline. This can be
@@ -54,14 +54,14 @@ self-contained system, or SCSs, that follow certain rules.<p>
 
 	<li id="no-shared-ui">An SCS should make its features usable
 	to end-users by its own UI. Therefore the SCS should have
-	<a href="#no-shared-ui">no shared UI</a> with other SCS. SCS might still have
-	links to each other. However,  <a href="#no-sync">asynchronous
+	<a href="#no-shared-ui">no shared UI</a> with other SCSs. SCSs might still have
+	links to each other. However, <a href="#no-sync">asynchronous
 	integration</a> means that the SCS should still work even if
 	the UI of another SCS is not available.
 	</li>
 
 	<li id="no-code-sharing">To avoid tight coupling an SCS should
 	<a href="#no-code-sharing">share no business code</a> with other SCSs. It might be fine to
-	create a pull-request for an SCS or use common libraries
+	create a pull-request for an SCS or use common libraries,
 	e.g. database drivers or oAuth clients.</li>
 </ol>
