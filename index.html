@@ -34,7 +34,7 @@ self-contained system, or SCSs, that follow certain rules.<p>
 	<li id="async">Communication with other SCSs or 3rd party
 	systems is <a href="#async">asynchronous wherever possible</a>. Specifically, 
 	other SCSs or external systems should not be accessed synchronously
-	within the SCS’s own request/response cycle. This decouples the
+	within the SCS's own request/response cycle. This decouples the
 	systems, reduces the effects of failure, and thus supports
 	autonomy. The goal is decoupling concerning time: An SCS should
 	work even if other SCSs are temporarily offline. This can be

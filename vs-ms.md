@@ -10,7 +10,7 @@ The SCS approach shares a lot of concepts with microservices, including ideas ab
 enforcing isolation via independently deployable units, the alignment
 of organizational and architectural boundaries, support for diversity
 in terms of technology choices, and the lack of centralized infrastructure. If
-you’re willing to see this as the core of microservices, you could view SCSs as 
+you're willing to see this as the core of microservices, you could view SCSs as 
 a specialization. But compared to some other aspects seen by many people 
 as key attributes of microservices, there are are some important differences:
 
