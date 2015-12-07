@@ -6,9 +6,9 @@ title: "SCS - Self-Contained Systems - SCS vs. Microservices"
 SCS vs. Microservices
 ---
 
-The SCS approach share a lot of concepts with microservices, including ideas about
+The SCS approach shares a lot of concepts with microservices, including ideas about
 enforcing isolation via independently deployable units, the alignment
-of of organizational and architectural boundaries, support for diversity
+of organizational and architectural boundaries, support for diversity
 in terms of technology choices, and the lack of centralized infrastructure. If
 you’re willing to see this as the core of microservices, you could view SCSs as 
 a specialization. But compared to some other aspects seen by many people 
@@ -22,7 +22,7 @@ as key attributes of microservices, there are are some important differences:
 <li id="fewer">There are usually <a href="#fewer">fewer</a> SCSs than
   microservices. A logical system such as an e-commerce shop might have 5 to 25 SCSs
   i.e. for billing, order processing etc. An e-commerce shop might
-  have 100 of microservices.</li>
+  have 100s of microservices.</li>
 
 <li id="no-communication">SCSs should ideally <a href="#no-communication">not communicate</a> with each other while this is
 fine for microservices.
@@ -31,9 +31,9 @@ fine for microservices.
   logic in its own service. However, some definitions of microservices
   include the UI in the microservice, too.</li>
 
-<li id="ui-integration"> SCSs should favor <a href="#ui-integration">integration in the UI layer</a>.
-  Microservices typically focus on integration in the logic layer.
-  (Again, some definitions of microservices also allow for integration in the UI layer.)
+<li id="ui-integration"> SCSs should favor <a href="#ui-integration">integration at the UI layer</a>.
+  Microservices typically focus on integration at the logic layer.
+  (Again, some definitions of microservices also allow for integration at the UI layer.)
   </li>
   </ol>
   
