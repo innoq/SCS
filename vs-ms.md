@@ -44,4 +44,7 @@ can be seen as a particular micro-architecture approach.
 SCS clearly focus on larger projects and a split into multiple
 teams. Microservices can be used for other purposes: Often small teams
 or even single developers use them e.g. to use Continuous Delivery
-more easy or to scale each Microservice independently.
+more easy, to build more robust systems or to scale each microservice
+independently. So microservices are more versatile while SCS solve
+problems specifically with the architecture and organisation of large
+projects.
