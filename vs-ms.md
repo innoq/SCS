@@ -40,3 +40,8 @@ fine for microservices.
 Of course it is possible to split an SCS even further so it consists
 of microservices — in particular for the business logic. In this case, this 
 can be seen as a particular micro-architecture approach.
+
+SCS clearly focus on larger projects and a split into multiple
+teams. Microservices can be used for other purposes: Often small teams
+or even single developers use them e.g. to use Continuous Delivery
+more easy or to scale each Microservice independently.
