@@ -43,9 +43,9 @@ mean that the others are compromised, too.
 ### (Independent) Scaling
 
 Each SCS can run on one or multiple servers to deal with high
-load. The SCS contains also the database and does not talk to other
-SCSs. So just scaling a single SCS is enough to support a larger number
-of requests of a certain type.
+load. Each SCS also manages its own data persistency, and does not share
+a central data persistence system with other SCSs. Thus, increased local
+demand can be managed by scaling locally.
 
 ### Replaceability
 
