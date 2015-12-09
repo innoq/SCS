@@ -10,12 +10,12 @@ The SCS approach shares a lot of concepts with microservices, including ideas ab
 enforcing isolation via independently deployable units, the alignment
 of organizational and architectural boundaries, support for diversity
 in terms of technology choices, and the lack of centralized infrastructure. If
-you're willing to see this as the core of microservices, you could view SCSs as 
-a specialization. But compared to some other aspects seen by many people 
-as key attributes of microservices, there are are some important differences:
+you're willing to see this as the core of microservices, you could view SCSs as
+a specialization. But compared to some other aspects seen by many people
+as key attributes of microservices, there are some important differences:
 
 <ul>
-	<li id="smaller">A microservice is probably <a href="#smaller">smaller</a> than an SCS. An SCS might be
+<li id="smaller">A microservice is probably <a href="#smaller">smaller</a> than an SCS. An SCS might be
   large enough to keep a team busy and provide more meaningful
   business value.</li>
 
@@ -36,9 +36,9 @@ fine for microservices.
   (Again, some definitions of microservices also allow for integration at the UI layer.)
   </li>
   </ol>
-  
+
 Of course it is possible to split an SCS even further so it consists
-of microservices — in particular for the business logic. In this case, this 
+of microservices — in particular for the business logic. In this case, this
 can be seen as a particular micro-architecture approach.
 
 SCS clearly focus on larger projects and a split into multiple
