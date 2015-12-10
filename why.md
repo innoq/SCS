@@ -43,8 +43,10 @@ mean that the others are compromised, too.
 ### (Independent) Scaling
 
 Each SCS can run on one or multiple servers to deal with high
-load. Each SCS also manages its own data persistency, and does not share
-a central data persistence system with other SCSs. Thus, increased local
+load. Each SCS also manages its own data persistency, and ideally does not share
+a central data persistence system with other SCSs. Also it should
+communicate as little with other SCSs as possible and only
+asynchronously. Thus, increased local
 demand can be managed by scaling locally.
 
 ### Replaceability
