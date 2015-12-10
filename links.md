@@ -10,6 +10,8 @@ Links
 
 * [German Infodeck](https://speakerdeck.com/rstrangh/self-contained-systems-german)
 
+* [Twitter](https://twitter.com/scsarchitecture)
+
 * [Presentation](https://www.innoq.com/en/talks/2014/12/talk-microservices-modularization-softwarearchitecture-berlin/)
  by Stefan Tilkov about Modularization for Sustainable Systems -
  mentions SCS on slide 28ff
