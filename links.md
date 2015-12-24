@@ -6,9 +6,10 @@ title: "SCS - Self-Contained Systems - Links"
 Links
 ---
 
-* [English Infodeck](https://speakerdeck.com/rstrangh/self-contained-systems-1)
+*
+  [English Infodeck](https://speakerdeck.com/rstrangh/self-contained-systems-1)  [Keynote](slidedeck/en/scs-infodeck-english.key)
 
-* [German Infodeck](https://speakerdeck.com/rstrangh/self-contained-systems-german)
+* [German Infodeck](https://speakerdeck.com/rstrangh/self-contained-systems-german)  [Keynote](slidedeck/de/scs-infodeck-deutsch.key)
 
 * [Twitter](https://twitter.com/scsarchitecture)
 
