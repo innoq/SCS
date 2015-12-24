@@ -1,6 +1,7 @@
 ---
 layout: default
-title: "SCS - Self-Contained Systems - Links"
+title: SCS - Self-Contained Systems - Links
+description: Links to further information about SCS (Self-contained Systems)
 ---
 
 Links

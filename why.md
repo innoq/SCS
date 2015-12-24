@@ -1,6 +1,7 @@
 ---
 layout: default
-title: "SCS - Self-Contained Systems - Why?"
+title: SCS - Self-Contained Systems - Why?
+description: Reasons to use the Self-contained Systems (SCS) software architecture
 ---
 
 Why SCS?
