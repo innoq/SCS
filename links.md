@@ -31,4 +31,6 @@ Links
 
 * [Original German article (2011)](https://www.innoq.com/de/links/softwarearchitektur-im-grossen/)
 
+* [German Blog Post at heise developer / Continuous Architecture Blog](http://www.heise.de/developer/artikel/Self-contained-Systems-ein-Architekturstil-stellt-sich-vor-3038718.html)
+
 * [Content on GitHub](https://github.com/innoq/SCS)
