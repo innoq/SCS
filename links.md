@@ -14,6 +14,10 @@ Links
 
 * [Twitter](https://twitter.com/scsarchitecture)
 
+* [English Wikipedia](https://en.wikipedia.org/wiki/Self-contained_Systems)
+
+* [German Wikipedia](https://de.wikipedia.org/wiki/Self-contained_Systems)
+
 * [Presentation](https://www.innoq.com/en/talks/2014/12/talk-microservices-modularization-softwarearchitecture-berlin/)
  by Stefan Tilkov about Modularization for Sustainable Systems -
  mentions SCS on slide 28ff
