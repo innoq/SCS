@@ -31,6 +31,9 @@ Links
 * [Jump - Ein Technologie-Sprung](http://galeria-kaufhof.github.io/general/2014/09/20/jump-ein-technologiesprung-bei-galeria-kaufhof/)
   at GALERIA Kaufhof Technology Blog, German
 
+* [Self-Contained Systems - Microservices for Dummies](http://dejanglozic.com/2016/01/04/self-contained-systems-microservices-for-dummies/)
+  at the blog of Dejan Glozic
+
 * [Content tagged with SCS](https://www.innoq.com/en/timeline/?tag=scs) at the innoQ blog
 
 * [Original German article (2011)](https://www.innoq.com/de/links/softwarearchitektur-im-grossen/)
