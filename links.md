@@ -28,7 +28,7 @@ Links
 * [Architekturprinzipien](http://dev.otto.de/2013/04/14/architekturprinzipien-2/)
   at Otto Blog, German
 
-* [Jump - Ein Technologie-Sprung](http://galeria-kaufhof.github.io/general/2014/09/20/jump-ein-technologiesprung-bei-galeria-kaufhof/)
+* [Die Architektur der Galeria.de Plattform im Kontext der Produktentwicklungsorganisation](http://galeria-kaufhof.github.io/general/2015/12/15/architektur-und-organisation-im-galeria-de-produktmanagement)
   at GALERIA Kaufhof Technology Blog, German
 
 * [Content tagged with SCS](https://www.innoq.com/en/timeline/?tag=scs) at the innoQ blog
