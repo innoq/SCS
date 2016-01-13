@@ -7,9 +7,9 @@ description: Links to further information about SCS (Self-contained Systems)
 Links
 ---
 
-* [English Infodeck](https://speakerdeck.com/rstrangh/self-contained-systems-1)  [Keynote](slidedeck/en/scs-infodeck-english.key)
+* [English Infodeck](https://speakerdeck.com/rstrangh/self-contained-systems-1)  [Keynote](slidedeck/en/scs-infodeck-english.key) [PowerPoint](slidedeck/en/scs-infodeck-english.pptx)
 
-* [German Infodeck](https://speakerdeck.com/rstrangh/self-contained-systems-german)  [Keynote](slidedeck/de/scs-infodeck-deutsch.key)
+* [German Infodeck](https://speakerdeck.com/rstrangh/self-contained-systems-german)  [Keynote](slidedeck/de/scs-infodeck-deutsch.key) [PowerPoint](slidedeck/de/scs-infodeck-deutsch.pptx)
 
 * [Twitter](https://twitter.com/scsarchitecture)
 
