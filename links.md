@@ -32,6 +32,8 @@ Links
 * [Die Architektur der Galeria.de Plattform im Kontext der Produktentwicklungsorganisation](http://galeria-kaufhof.github.io/general/2015/12/15/architektur-und-organisation-im-galeria-de-produktmanagement)
   at GALERIA Kaufhof Technology Blog, German
 
+* [Article at InfoQ](http://www.infoq.com/articles/microservices-real-world)
+
 * [Self-Contained Systems - Microservices for Dummies](http://dejanglozic.com/2016/01/04/self-contained-systems-microservices-for-dummies/)
   at the blog of Dejan Glozic
 
