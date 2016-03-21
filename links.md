@@ -29,7 +29,10 @@ Links
 * [Architekturprinzipien](http://dev.otto.de/2013/04/14/architekturprinzipien-2/)
   at Otto Blog, German
 
-* [Die Architektur der Galeria.de Plattform im Kontext der Produktentwicklungsorganisation](http://galeria-kaufhof.github.io/general/2015/12/15/architektur-und-organisation-im-galeria-de-produktmanagement)
+* [Why Microservices](http://dev.otto.de/2016/03/20/why-microservices/)
+ at Otto Blog, English
+
+* [Architektur der Galeria.de Plattform](http://galeria-kaufhof.github.io/general/2015/12/15/architektur-und-organisation-im-galeria-de-produktmanagement)
   at GALERIA Kaufhof Technology Blog, German
 
 * [Article at InfoQ](http://www.infoq.com/articles/microservices-real-world)
