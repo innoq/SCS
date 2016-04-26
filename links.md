@@ -21,7 +21,12 @@ Links
  by Stefan Tilkov about Modularization for Sustainable Systems -
  mentions SCS on slide 28ff
 
-* [ROCA](http://roca-style.org/) a style for web applications that fits SCS.
+* [ROCA](http://roca-style.org/) a style for web applications that
+fits SCS.
+
+* Article about transclusion for SCS frontend integration
+  [English](https://www.innoq.com/en/blog/transclusion/) /
+  [German](https://www.innoq.com/en/blog/transklusion/)
 
 * [Example](https://blog.codecentric.de/en/2015/01/self-contained-systems-roca-complete-example-using-spring-boot-thymeleaf-bootstrap/)
   for SCS and [ROCA](http://roca-style.org) at the Codecentric Blog
