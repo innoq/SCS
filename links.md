@@ -53,4 +53,6 @@ fits SCS.
 
 * [German Blog Post at heise developer / Continuous Architecture Blog](http://www.heise.de/developer/artikel/Self-contained-Systems-ein-Architekturstil-stellt-sich-vor-3038718.html)
 
+* [EnterpriseTales: Des Microservice großer Bruder](https://jaxenter.de/enterprisetales-des-microservice-grosser-bruder-39180)
+
 * [Content on GitHub](https://github.com/innoq/SCS)
