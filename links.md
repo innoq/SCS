@@ -55,6 +55,6 @@ fits SCS.
 
 * [EnterpriseTales: Des Microservice großer Bruder](https://jaxenter.de/enterprisetales-des-microservice-grosser-bruder-39180)
 
-* [Breaking Down a Monolithic Software: A Case for Microservices vs. Self-Contained Systems](http://www.elastic.io/breaking-down-monolith-microservices-and-self-contained-systems/)
+* [Breaking Down a Monolithic Software: A Case for Microservices vs. Self-Contained Systems](http://www.elastic.io/breaking-down-monolith-microservices-and-self-contained-systems/) at the elastic.io Blog
 
 * [Content on GitHub](https://github.com/innoq/SCS)
