@@ -39,7 +39,7 @@ distinguish:
 * Decisions that can only be made on the global level are called
   *macro architecture*. Actually, only very few things fall into this
   category, most importantly the protocol SCSs can use to communicate with
-  each other, the approach used for UI integration, and possibly a a way to
+  each other, the approach used for UI integration, and possibly a way to
   do data replication.
 
 Of course it is still possible to decide parts of the
