@@ -42,6 +42,8 @@ fits SCS.
 
 * [The rocky road from Monolith to Microservices](http://kuehne-nagel.github.io/monolith-to-microservices) by [Björn Kimminich](https://github.com/bkimminich) about desiccation of an enterprise scale monolith at Kuehne + Nagel - mentions SCS on [slide 28](http://kuehne-nagel.github.io/monolith-to-microservices/#/28)ff
 
+* [Blog Post "Carving the Java EE Monolith Into Microservices: Prefer Verticals Not Layers" with reference to SCS](http://blog.christianposta.com/microservices/carving-the-java-ee-monolith-into-microservices-perfer-verticals-not-layers/)
+
 * [Article at InfoQ](http://www.infoq.com/articles/microservices-real-world)
 
 * [Self-Contained Systems - Microservices for Dummies](http://dejanglozic.com/2016/01/04/self-contained-systems-microservices-for-dummies/)
