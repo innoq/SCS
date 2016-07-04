@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: SCS - Self-Contained Systems - SCS vs. Microservices
 description: Comparison of microservices and Self-contained Systems (SCS)
@@ -26,7 +26,7 @@ as key attributes of microservices, there are some important differences:
   have 100s of microservices.</li>
 
 <li id="no-communication">SCSs should ideally <a href="#no-communication">not communicate</a> with each other while this is
-fine for microservices.
+fine for microservices.</li>
 
 <li id="ui">SCSs have a <a href="#ui">UI</a>, while microservices might separate the UI from the
   logic in its own service. However, some definitions of microservices
@@ -34,9 +34,8 @@ fine for microservices.
 
 <li id="ui-integration"> SCSs should favor <a href="#ui-integration">integration at the UI layer</a>.
   Microservices typically focus on integration at the logic layer.
-  (Again, some definitions of microservices also allow for integration at the UI layer.)
-  </li>
-  </ol>
+  (Again, some definitions of microservices also allow for integration at the UI layer.)</li>
+</ul>
 
 Of course it is possible to split an SCS even further so it consists
 of microservices — in particular for the business logic. In this case, this
