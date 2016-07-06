@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title: SCS - Self-Contained Systems - SCS vs. Microservices
 description: Comparison of microservices and Self-contained Systems (SCS)
