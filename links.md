@@ -28,8 +28,7 @@ fits SCS.
   [English](https://www.innoq.com/en/blog/transclusion/) /
   [German](https://www.innoq.com/en/blog/transklusion/)
 
-*
-  [Microservices Websites](https://gustafnk.github.io/microservice-websites/)
+* [Microservices Websites](https://gustafnk.github.io/microservice-websites/)
   talks about client-side web integration.
 
 * [Example](https://blog.codecentric.de/en/2015/01/self-contained-systems-roca-complete-example-using-spring-boot-thymeleaf-bootstrap/)
