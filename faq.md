@@ -11,12 +11,12 @@ Frequently Asked Questions
 
 "Self-Contained System" describes best what's at the core of the
 concept: Each system should work by itself. Together they form a
-"System of Systems". We also haven't seen it anywhere else, allowing
+"System of Systems". We also haven't seen the term used anywhere else, allowing
 us to capture it to mean one specific, hopefully well-defined thing.
 
 ### Is the SCS architecture's intent to replace other concepts?
 
-No. The SCS approach can be combined with microservices for example — see
+No. For exapmle, the SCS approach can be combined with finer-grained microservices — see
 [SCS vs. Microservices](/vs-ms.html).
 
 ### How do I know which systems to build?
@@ -65,7 +65,7 @@ unable to do that, you get the negative effects of a monolith again.
 
 The SCS approach focuses on Web UIs that are split across the SCSs. However, each SCS
 might also provide an API that can be accessed by a single mobile client
-or a monolithic single page app. However, the functionalities are then split across
+or a monolithic single page app. If you do this, the functionality is split across
 the SCSs containing the logic and the mobile client or single page app
 containing the UI. That way a change cannot be confined to an SCS, but
 would affect the SCS as well as the mobile clients and the single page
