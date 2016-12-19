@@ -16,7 +16,7 @@ us to capture it to mean one specific, hopefully well-defined thing.
 
 ### Is the SCS architecture's intent to replace other concepts?
 
-No. For exapmle, the SCS approach can be combined with finer-grained microservices — see
+No. For example, the SCS approach can be combined with finer-grained microservices — see
 [SCS vs. Microservices](/vs-ms.html).
 
 ### How do I know which systems to build?
