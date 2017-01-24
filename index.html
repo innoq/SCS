@@ -67,9 +67,9 @@ self-contained systems, or SCSs, that follow certain rules.<p>
 	create a pull-request for an SCS or use common libraries,
 	e.g. database drivers or oAuth clients.</li>
 	
-	<li id="avoid-common-infrastructure">To make SCSs more robust and improve
-	decoupling <a href="#avoid-common-infrastructure">common infrastructure should be avoided</a>.
-	E.g. a common database make fail safeness and scalability of the SCSs
-	depend on the central database. However, due to e.g. costs a common database with separate
-	schemas per SCS might still be a valid compromise. </li>
+	<li id="minimize-shared-infrastructure">To make SCSs more robust and improve
+	decoupling <a href="#avoid-common-infrastructure">shared infrastructure should be minimized</a>.
+	E.g. a shared database make fail safeness and scalability of the SCSs
+	depend on the central database. However, due to e.g. costs a shared database with separate
+	schemas or data models per SCS might still be a valid compromise. </li>
 </ol>
