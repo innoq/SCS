@@ -24,6 +24,8 @@ Links
 * [ROCA](http://roca-style.org/) a style for web applications that
 fits SCS.
 
+* [Article on InfoQ](https://www.infoq.com/articles/scs-microservices-done-right)
+
 * Article about transclusion for SCS frontend integration
   [English](https://www.innoq.com/en/blog/transclusion/) /
   [German](https://www.innoq.com/en/blog/transklusion/)
