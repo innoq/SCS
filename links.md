@@ -65,3 +65,7 @@ fits SCS.
 * [Breaking Down a Monolithic Software: A Case for Microservices vs. Self-Contained Systems](http://www.elastic.io/breaking-down-monolith-microservices-and-self-contained-systems/) at the elastic.io Blog
 
 * [Content on GitHub](https://github.com/innoq/SCS)
+
+* [Von SOA über Microservices zu Self-contained Systems](https://www.jobpushy.de/blog/11/self-contained-system-scs-%E2%80%94-architektur-trend)
+  at the Jobpushy Blog, German
+
