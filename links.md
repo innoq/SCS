@@ -64,6 +64,6 @@ fits SCS.
 
 * [Breaking Down a Monolithic Software: A Case for Microservices vs. Self-Contained Systems](http://www.elastic.io/breaking-down-monolith-microservices-and-self-contained-systems/) at the elastic.io Blog
 
-* [Building and Trusting a Cloud Bank - Starling Bank](https://www.infoq.com/presentations/starling-bank-resilience/) by Greg Hawkins at InfoQ. Although not implementing a Web-UI, this talk explains some basic principles of an SCS architecture and shows its advantages in regards to resilience.
+* [Building and Trusting a Cloud Bank - Starling Bank](https://www.infoq.com/presentations/starling-bank-resilience/) by Greg Hawkins at InfoQ. Although the referenced implementation lacks an integrating Web-UI, this talk explains some basic principles of an SCS architecture and shows its advantages in regards to resilience.
 
 * [Content on GitHub](https://github.com/innoq/SCS)
