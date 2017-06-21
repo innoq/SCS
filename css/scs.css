@@ -617,6 +617,10 @@ footer {
   margin-bottom: 10px;
 }
 
+.license-text {
+   margin-top: 0;
+}
+
 .license-text a {
   color: #BBB;
   text-decoration: none;
