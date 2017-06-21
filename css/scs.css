@@ -642,6 +642,13 @@ footer {
   background-color: transparent;
 }
 
+.row {
+  margin-bottom: 1rem;
+}
+
+.row:last-of-type {
+  margin-bottom: 0;
+}
 
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
