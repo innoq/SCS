@@ -11,7 +11,7 @@ via Github Pages from this repository).
 #### 1. Fork this repository
 #### 2. Make a feature branch on your fork
 #### 3. Make your changes
-You can setup a local development environment by running the following command in your locally cloned repository:
+You can setup a local [development environment](https://hub.docker.com/r/starefossen/github-pages/) by running the following command in your locally cloned repository:
 
 ```
 docker run -v "$PWD":/usr/src/app -p "4000:4000" starefossen/github-pages
