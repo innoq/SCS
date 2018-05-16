@@ -66,4 +66,6 @@ fits SCS.
 
 * [Building and Trusting a Cloud Bank - Starling Bank](https://www.infoq.com/presentations/starling-bank-resilience/) by Greg Hawkins. This talk explains some basic principles of an SCS architecture and shows its advantages with regards to resilience. Note, however, that there is no web UI, so the system at hand does not fully comply with the SCS definition.
 
+* [Self-Contained Systems in Practice with Vaadin and Feeds](https://blog.philipphauer.de/self-contained-systems-vaadin-feeds/) at Philipp Hauer's blog talks about a concrete SCS-based system.
+
 * [Content on GitHub](https://github.com/innoq/SCS)
