@@ -101,6 +101,18 @@ and thereby save resources. Whether or not to connect all SCSs to the
 same database system or database cluster is one of the decisions that need
 to be made as part of the macro architecture.
 
+### Should a SCS be split by layer?
+
+SCS makes no assumptions how a system is built internally and its deployables 
+(such as frontend and backend). 
+This is fully up to each team's micro architecture decisions.
+
+However, it is recommended to minimize the number of deployables within
+a SCS to avoid network latency and complexity by managing internal APIs and
+remote communication safeguards.
+A good starting point is to have one stateless deployable containing UI and logic
+and a database for persistent data.
+
 ### How can I use this document?
 
 This document is licensed under a Creative Commons license,
