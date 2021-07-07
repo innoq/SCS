@@ -101,6 +101,18 @@ and thereby save resources. Whether or not to connect all SCSs to the
 same database system or database cluster is one of the decisions that need
 to be made as part of the macro architecture.
 
+### Can SCSs be layered?
+
+Organizing code in layers (UI, logic, persistence) makes sense to
+separate concerns and to make the system more understandable. It is
+not enjoyable to work on a system where the code contains all of these
+concerns intermingled.
+
+However, if an SCS is [split into microservices](/vs-ms.html), the
+microservices should not be implemented by layer. Our experience is
+that such a split leads to a lot of dependencies between the
+microservices - hurting maintainability as well as performance.
+
 ### How can I use this document?
 
 This document is licensed under a Creative Commons license,
