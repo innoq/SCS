@@ -195,7 +195,7 @@ strong { font-weight: bold; }
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-a {
+a:not([class]) {
   transition: 0.25s all ease-in-out;
   color: #69A0FF;
   text-decoration: none;
@@ -207,9 +207,9 @@ a:visited {
   /*color: #006AB3;*/
 }
 
-a:hover,
-a:focus,
-a:active {
+a:not([class]):hover,
+a:not([class]):focus,
+a:not([class]):active {
   color: white;
   background-color: #69A0FF;
 }
@@ -649,6 +649,27 @@ footer {
 .row:last-of-type {
   margin-bottom: 0;
 }
+
+.slides {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 10px;
+}
+
+.slide {
+  display: block;
+  max-width: 100%;
+}
+
+.slide-link {
+  border: 1px solid rgb(231, 231, 231);
+}
+
+.slide-link:hover,
+.slide-link:focus {
+
+}
+
 
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
