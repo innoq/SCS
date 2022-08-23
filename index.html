@@ -7,16 +7,50 @@ description: Self-contained Systems (SCS) is a software architecture focused on 
 <h2>Introduction</h2>
 
 <p>The Self-contained System (SCS) approach is an architecture that
-focuses on a separation of the functionality into many independent
-systems, making the complete logical system a collaboration of many
-smaller software systems. This avoids the problem of large monoliths
-that grow constantly and eventually become unmaintainable.
-Over the past few years, we have seen its benefits in many mid-sized
-and large-scale projects.</p>
-
-<p>The idea is to break a large system apart into several smaller
-self-contained systems, or SCSs, that follow certain rules.<p>
-
+	focuses on a separation of the functionality into many independent
+	systems, making the complete logical system a collaboration of many
+	smaller software systems. This avoids the problem of large monoliths
+	that grow constantly and eventually become unmaintainable.
+	Over the past few years, we have seen its benefits in many mid-sized
+	and large-scale projects.</p>
+	
+	<p>The idea is to break a large system apart into several smaller
+		self-contained systems, or SCSs, that follow certain rules.<p>
+			
+			
+<touch-detection>
+	<div class="slider" role="region" aria-label="Folien" tabindex="0" aria-describedby="slider-instructions">
+		<ul class="slider__all">
+			{% for y in (1..42) %}
+			<li class="slider__slide">
+				<figure class="slider__page">
+					<img src="https://res.cloudinary.com/innoq/image/upload/w_900,dpr_2.0/pg_{{y}}/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" style="max-width: 100%;" />
+					<figcaption class="page__number__box">
+						<svg class="page__number" viewBox="0 0 45 30" version="1.1" baseProfile="full" xmlns="https://www.w3.org/2000/svg">
+							<text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle">{{y}}/42</text>
+						</svg>
+					</figcaption>
+				</figure>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
+	<div class="slider__instructions">
+		<p class="instructions--touch">Swipe left to see more slides</p>
+		<div class="instructions__no-touch">
+			<p class="instructions--hover-and-focus">Scroll or use arrow keys to see more slides</p>
+			<p class="instructions--hover">Scroll to see more slides</p>
+			<p class="instructions--focus">Use arrow keys to see more slides</p>
+		</div>
+	</div>
+</touch-detection>
+<ul>
+	<li><a href="https://speakerdeck.com/rstrangh/self-contained-systems-1">English Info Deck on SpeakerDeck</a></li>
+	<li><a href="https://res.cloudinary.com/innoq/image/upload/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.pdf">PDF</a></li>
+	<li><a href="slidedeck/en/scs-infodeck-english.key">Keynote</a></li>
+	<li><a href="slidedeck/en/scs-infodeck-english.pptx">PowerPoint</a></li>
+</ul>
+			
 <h2 id="scs-characteristics">SCS Characteristics</h2>
 <ol>
 
@@ -71,58 +105,3 @@ self-contained systems, or SCSs, that follow certain rules.<p>
 	depend on the central database. However, due to e.g. costs a shared database with separate
 	schemas or data models per SCS can be a valid alternative. </li>
 </ol>
-
-<h2 id="slidedeck">Info Deck</h2>
-
-<ul>
-	<li><a href="https://speakerdeck.com/rstrangh/self-contained-systems-1">English Info Deck on SpeakerDeck</a></li>
-	<li><a href="https://res.cloudinary.com/innoq/image/upload/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.pdf">PDF</a></li>
-	<li><a href="slidedeck/en/scs-infodeck-english.key">Keynote</a></li>
-	<li><a href="slidedeck/en/scs-infodeck-english.pptx">PowerPoint</a></li>
-</ul>
-  
-
-<div class="slides">
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_1/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_1/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_2/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_2/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_3/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_3/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_4/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_4/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_5/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_5/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_6/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_6/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_7/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_7/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_8/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_8/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_9/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_9/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_10/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_10/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_11/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_11/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_12/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_12/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_13/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_13/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_14/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_14/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_15/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_15/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_16/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_16/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_17/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_17/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_18/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_18/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_19/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_19/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_20/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_20/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_21/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_21/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_22/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_22/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_23/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_23/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_24/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_24/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_25/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_25/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_26/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_26/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_27/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_27/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_28/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_28/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_29/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_29/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_30/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_30/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_31/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_31/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_32/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_32/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_33/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_33/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_34/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_34/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_35/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_35/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_36/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_36/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_37/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_37/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_38/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_38/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_39/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_39/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_40/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_40/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_41/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_41/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-	<a class="slide-link" href="https://res.cloudinary.com/innoq/image/upload/pg_42/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp"><img src="https://res.cloudinary.com/innoq/image/upload/w_473,dpr_2.0,q_auto/pg_42/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.webp" loading="lazy" class="slide" /></a>
-</div>
