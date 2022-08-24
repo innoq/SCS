@@ -1,0 +1,58 @@
+img-grid-viewer {
+  display: block;
+}
+
+img-grid-link.open {
+  border: 1px solid green;
+}
+
+img-grid-view-layer {
+  display: block;
+  border: 1px solid #000;
+  border-top: 15px solid #000;
+  border-bottom: 15px solid #000;
+  position: fixed;
+  width: 90vw;
+  height: 80vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  background-image: var(--background-image);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+img-grid-view-layer.closed {
+  display: none;
+}
+
+.img-grid-close-button, .img-grid-browse-button {
+  font-size: .875rem;
+}
+
+.img-grid-close-button:hover, .img-grid-browse-button:hover {
+  background-color: #fff;
+}
+
+.img-grid-close-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+
+.img-grid-browse-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%)
+}
+
+.img-grid-browse-button.previous-image {
+  left: 1rem;
+}
+
+.img-grid-browse-button.next-image {
+  right: 1rem;
+}
