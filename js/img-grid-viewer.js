@@ -95,6 +95,10 @@ class ImageGridViewLayer extends HTMLElement {
   prev() {
     this.show(this.current?.before)
   }
+
+  get isOpen() {
+    return !this.classList.contains('closed')
+  }
 }
 
 
@@ -113,7 +117,9 @@ class ImageGridViewer extends HTMLElement {
     this.imageLinkOpenListener = (ev) => {
       ev.stopImmediatePropagation()
       const {target: imageLink } = ev
-      this.open(imageLink)
+      this.viewLayer.isOpen ?
+        this.viewLayer.close() // the layer is open already and somebody clicked a slide behind the back of the viewer
+        : this.open(imageLink)
     }
 
     this.addEventListener('img-grid:open', this.imageLinkOpenListener)
