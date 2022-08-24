@@ -110,8 +110,6 @@ class ImageGridViewer extends HTMLElement {
       l.connect(before , after)
     })
 
-    console.log(this.imageLinks[this.imageLinks.length - 1]);
-
     this.imageLinkOpenListener = (ev) => {
       ev.stopImmediatePropagation()
       const {target: imageLink } = ev
