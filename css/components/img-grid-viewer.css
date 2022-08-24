@@ -46,7 +46,7 @@ img-grid-view-layer.closed {
 .img-grid-browse-button {
   position: absolute;
   top: 50%;
-  transform: translateY(-50%)
+  transform: translateY(-50%);
 }
 
 .img-grid-browse-button.previous-image {
@@ -55,4 +55,13 @@ img-grid-view-layer.closed {
 
 .img-grid-browse-button.next-image {
   right: 1rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .img-grid-browse-button {
+    position: absolute;
+    top: auto;
+    bottom: 1rem;
+    transform:none;
+  }
 }
