@@ -60,6 +60,9 @@ fits SCS.
 
 * [German Blog Post at heise developer / Continuous Architecture Blog](https://www.heise.de/developer/artikel/Self-contained-Systems-ein-Architekturstil-stellt-sich-vor-3038718.html)
 
+* [Software Architektur im Stream "Der
+  Self-contained-Systems-Architekturansatz"](https://software-architektur.tv/2022/09/02/folge132.html) (German)
+
 * [EnterpriseTales: Des Microservice großer Bruder](https://jaxenter.de/enterprisetales-des-microservice-grosser-bruder-39180)
 
 * [Breaking Down a Monolithic Software: A Case for Microservices vs. Self-Contained Systems](https://www.elastic.io/breaking-down-monolith-microservices-and-self-contained-systems/) at the elastic.io Blog
