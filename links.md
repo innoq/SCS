@@ -54,7 +54,7 @@ fits SCS.
 * [Self-Contained Systems - Microservices for Dummies](https://dejanglozic.com/2016/01/04/self-contained-systems-microservices-for-dummies/)
   at the blog of Dejan Glozic
 
-* [Content tagged with SCS](https://www.innoq.com/en/topics/scs/) at the innoQ blog
+* [Content tagged with SCS](https://www.innoq.com/en/topics/scs/) at the INNOQ blog
 
 * [Original German article (2011)](https://www.innoq.com/de/links/softwarearchitektur-im-grossen/)
 
