@@ -1,75 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="w-mod-js">
   <head>
     <title>{{ page.title }}</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{{page.description}}">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/scs.css">
-    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/webflow.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="icon" type="image/svg+xml" href="./img/favicon.svg" sizes="any">
     <script defer data-domain="scs-architecture.org" src="https://plausible.io/js/script.outbound-links.js"></script>
     <script type="module" src="js/custom-elements.js"></script>
   </head>
-  <body>
-    <a href="https://github.com/innoq/SCS" class="github-corner" aria-label="View source on Github"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
-    <div class="container">
-      <div class="row">
-        <div class="twelve columns">
-
-          <header class="main">
-            <h1 class="head u-cf">
-              <a href="index.html">
-                <img class="logo" src="./img/system-of-systems-scs.png" width="150px" alt="SCS Logo">
-                <span class="lead" style="display:block;">Self-Contained Systems</span>
-              </a>
-            </h1>
-            <p class="subhead">Assembling Software from Independent Systems</p>
-          </header>
-
-          <nav class="subnav">
-            <ul class="nav">
-              <li role="presentation"><a href="index.html">Home</a></li>
-              <li role="presentation"><a href="why.html">Why?</a></li>
-              <li role="presentation"><a href="faq.html">FAQ</a></li>
-              <li role="presentation"><a href="vs-ms.html">vs. Microservice</a></li>
-              <li role="presentation"><a href="links.html">Links</a></li>
-              <li role="presentation"><a href="discussion.html">Discussion</a></li>
-              <li role="presentation"><a href="https://www.innoq.com/en/datenschutz">Privacy</a></li>
-            </ul>
-          </nav>
-
-          {{ content }}
-
-          <footer>
-            <div class="row">
-              <div class="license-icons two columns">
-                <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">
-                  <img alt="Creative Commons License CC" width="20px" src="./img/cc.png"/>
-                  <img alt="Creative Commons License BY" width="20px" src="./img/by.png"/>
-                  <img alt="Creative Commons License SA" width="20px" src="./img/sa.png"/>
-                </a>
-              </div>
-              <p class="license-text ten columns">
-                <strong xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">SCS</strong> is licensed under a
-                <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
-              </p>
-            </div>
-            <div class="row">
-              <div class="license-icons two columns">
-                <a rel="sponsor" href="https://www.innoq.com/">
-                  <img alt="INNOQ" width="60" src="./img/innoq-logo--petrolapricot.svg"/>
-                </a>
-              </div>
-              <p class="license-text ten columns">
-                This website is supported by <a rel="sponsor" href="https://www.innoq.com/">INNOQ</a>.
-              </p>
-            </div>
-          </footer>
-
+  <body class="body">
+    <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
+      <div class="navbar-container w-container">
+        <nav role="navigation" class="nav-menu w-nav-menu">
+          <div class="nav-link-div">
+            <a href="index.html" aria-current="page" class="nav-link w-nav-link {% if page.name == 'index.html' %} w--current {% endif %}">Definition</a>
+          </div>
+          <div class="nav-link-div">
+            <a href="why.html" class="nav-link w-nav-link {% if page.name == 'why.md' %} w--current {% endif %}">Why?</a>
+          </div>
+          <div class="nav-link-div">
+            <a href="faq.html" class="nav-link w-nav-link {% if page.name == 'faq.md' %} w--current {% endif %}">FAQ</a>
+          </div>
+          <div class="nav-link-div">
+            <a href="vs-ms.html" class="nav-link w-nav-link {% if page.name == 'vs-ms.md' %} w--current {% endif %}">SCS vs. Microservice</a>
+          </div>
+          <div class="nav-link-div">
+            <a href="links.html" class="nav-link w-nav-link {% if page.name == 'links.md' %} w--current {% endif %}">Links</a>
+          </div>
+          <div class="nav-link-div">
+            <a href="discussion.html" class="nav-link w-nav-link {% if page.name == 'discussion.html' %} w--current {% endif %}">Discussion</a>
+          </div>
+        </nav>
+        <div class="div-block">
+          <a href="https://github.com/innoq/SCS" class="nav-button-view w-button">Get it on Github</a>
+        </div>
+        <div class="menu-button w-nav-button">
+          <div class="icon w-icon-nav-menu"></div>
         </div>
       </div>
     </div>
+    {{ page.name }}
+    {% if page.name != 'index.html' %}
+    <div class="container">
+      <div class="{% if page.name == 'discussion.html' %} container-with-discussion {% else %} container-with-markdown {% endif %}">
+        {% endif %}
+        {{ content }}
+        {% if page.name != 'index.html' %}
+      </div>
+    </div>
+    {% endif %}
+    <footer class="footer wf-section">
+      <div class="footer-container w-container">
+        <a href="https://www.innoq.com/en/?pk_campaign=octopim&amp;pk_source=octopim-lp" target="_blank" class="link-footer">
+          <img src="img/INNOQ_Logo.svg" alt="INNOQ Logo" class="footer-logo"></img>
+        </a>
+        <h4 class="footer-heading">We give technology a purpose. We future-proof your ideas.</h4>
+        <p class="footer-text">Honest consulting, innovative thinking, and a passion for software development means: We deliver successful software solutions, infrastructure and business models.<br><br>
+          <a href="https://www.innoq.com/en/?pk_campaign=octopim&amp;pk_source=octopim-lp" target="_blank" class="link-footer">Visit our Website</a><br>
+          <a href="https://www.innoq.com/en/datenschutz" target="_blank" class="link-footer">Privacy Policy</a>
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
