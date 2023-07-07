@@ -25,6 +25,13 @@
   justify-content: space-evenly;
 }
 
+.hero-image {
+  width: 33%;
+  height: auto;
+  flex: 0 auto;
+  align-self: flex-start;
+}
+
 .text-centered {
   text-align: center;
   margin-top: 10rem;
@@ -34,16 +41,6 @@
 .tile {
   background-color: #f8f8fa;
   padding: 5%;
-}
-
-
-@media screen and (max-width: 767px) {
-  .hero-image {
-    width: 50%;
-    height: auto;
-    flex: 0 auto;
-    align-self: flex-start;
-  }
 }
 
 @media screen and (max-width: 479px) {

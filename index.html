@@ -11,78 +11,75 @@ description: Self-contained Systems (SCS) is a software architecture focused on 
 
 				<h2 class="hero-subheading">An architectural approach to create a set of autonomous, smaller subsystems that collaborate to cover the functionality of the overall system.</h2>
 			</div>
-			<img src="img/KP_Visual.svg" alt="monolith cut into multiple scs">
+			<img class="hero-image" src="img/KP_Visual.svg" alt="monolith cut into multiple scs">
 		</div>
 	</div>
-
 </header>
 
-	<h1 class="hero-heading text-centered">Characteristics</h1>
-	<div class="container-with-tiles">
-		<div class="tile">
-			<div class="benefit-element"><img src="img/KP_Visual.svg" alt="Customized Kube Platform Visual" class="benefit-image-customizable"></div>
-			<h2 class="benefit-heading">Autonomous</h2>
-			<p class="text-center">Each SCS is an autonomous web application. For the SCS's domain, all data, the logic to process that data and all code to render the web interface is contained within the SCS. An SCS can fulfill its primary use cases on its own, without having to rely on other systems being available.</p>
-		</div>
-		<div class="tile">
-			<div class="benefit-element"><img src="img/KP_Visual.svg" alt="Box" class="benefit-image-customizable"></div>
-			<h2 class="benefit-heading">One Team</h2>
-			<p class="text-center">Each SCS is owned by one team. This does not necessarily mean that only one team can change the code, but the owning team has the final say on what goes into the code base, for example by merging pull-requests.</p>
-		</div>
-		<div class="tile">
-			<div class="benefit-element"><img src="img/KP_Visual.svg" alt="Box" class="benefit-image-customizable"></div>
-			<h2 class="benefit-heading">Asynchronous Dependencies</h2>
-			<p class="text-center">Communication with other SCSs or 3rd party systems is asynchronous wherever possible. Specifically, other SCSs or external systems should not be accessed synchronously within the SCS's own request/response cycle. This decouples the systems, reduces the effects of failure, and thus supports autonomy. The goal is decoupling concerning time: An SCS should work even if other SCSs are temporarily offline. This can be achieved even if the communication on the technical level is synchronous, e.g. by replicating data or buffering requests.</p>
-		</div>
-		<div class="tile">
-			<div class="benefit-element"><img src="img/Customizable.svg" alt="Box" class="benefit-image-customizable"></div>
-			<h2 class="benefit-heading">Service API is Optional</h2>
-			<p class="text-center">An SCS can have an optional service API. Because the SCS has its own web UI, it can interact with the user — without going through a UI service. However, an API for mobile clients or for other SCSs might still be useful.</p>
-		</div>
-		<div class="tile">
-			<div class="benefit-element"><img src="img/ReadyToUse.svg" alt="Box" class="benefit-image-customizable"></div>
-			<h2 class="benefit-heading">Own Data & Logic</h2>
-			<p class="text-center">Each SCS must include data and logic. To really implement any meaningful features both are needed. An SCS should implement features by itself and must therefore include both.</p>
-		</div>
-		<div class="tile">
-			<div class="benefit-element"><img src="img/KP_Visual.svg" alt="Box" class="benefit-image-customizable"></div>
-			<h2 class="benefit-heading">Own UI</h2>
-			<p class="text-center">An SCS should make its features usable to end-users via its own UI. Therefore the SCS should have no shared UI with other SCSs. SCSs might still have links to each other. However, asynchronous integration means that the SCS should still work even if the UI of another SCS is not available.</p>
-		</div>
-		<div class="tile">
-			<div class="benefit-element"><img src="img/KP_Visual.svg" alt="Box" class="benefit-image-customizable"></div>
-			<h2 class="benefit-heading">No Shared Business Logic</h2>
-			<p class="text-center">To avoid tight coupling an SCS should share no business code with other SCSs. It might be fine to create a pull-request for an SCS or use common libraries, e.g. database drivers or oAuth clients.</p>
-		</div>
-		<div class="tile">
-			<div class="benefit-element"><img src="img/KP_Visual.svg" alt="Box" class="benefit-image-customizable"></div>
-			<h2 class="benefit-heading">Hardly Shared Infrastructure</h2>
-			<p class="text-center">To make SCSs more robust and improve decoupling shared infrastructure can be minimized. E.g. a shared database make fail safeness and scalability of the SCSs depend on the central database. However, due to e.g. costs a shared database with separate schemas or data models per SCS can be a valid alternative.</p>
-		</div>
+<h1 class="hero-heading text-centered">Characteristics</h1>
+<div class="container-with-tiles">
+	<div class="tile">
+		<div class="characteristic-image"><img src="img/KP_Visual.svg" alt="Customized Kube Platform Visual" class="benefit-image-customizable"></div>
+		<h2 class="characteristic-heading">Autonomous</h2>
+		<p class="text-center">Each SCS is an autonomous web application. For the SCS's domain, all data, the logic to process that data and all code to render the web interface is contained within the SCS. An SCS can fulfill its primary use cases on its own, without having to rely on other systems being available.</p>
 	</div>
+	<div class="tile">
+		<div class="characteristic-image"><img src="img/KP_Visual.svg" alt="Box" class="benefit-image-customizable"></div>
+		<h2 class="characteristic-heading">One Team</h2>
+		<p class="text-center">Each SCS is owned by one team. This does not necessarily mean that only one team can change the code, but the owning team has the final say on what goes into the code base, for example by merging pull-requests.</p>
+	</div>
+	<div class="tile">
+		<div class="characteristic-image"><img src="img/KP_Visual.svg" alt="Box" class="benefit-image-customizable"></div>
+		<h2 class="characteristic-heading">Asynchronous Dependencies</h2>
+		<p class="text-center">Communication with other SCSs or 3rd party systems is asynchronous wherever possible. Specifically, other SCSs or external systems should not be accessed synchronously within the SCS's own request/response cycle. This decouples the systems, reduces the effects of failure, and thus supports autonomy. The goal is decoupling concerning time: An SCS should work even if other SCSs are temporarily offline. This can be achieved even if the communication on the technical level is synchronous, e.g. by replicating data or buffering requests.</p>
+	</div>
+	<div class="tile">
+		<div class="characteristic-image"><img src="img/Customizable.svg" alt="Box" class="benefit-image-customizable"></div>
+		<h2 class="characteristic-heading">Service API is Optional</h2>
+		<p class="text-center">An SCS can have an optional service API. Because the SCS has its own web UI, it can interact with the user — without going through a UI service. However, an API for mobile clients or for other SCSs might still be useful.</p>
+	</div>
+	<div class="tile">
+		<div class="characteristic-image"><img src="img/ReadyToUse.svg" alt="Box" class="benefit-image-customizable"></div>
+		<h2 class="characteristic-heading">Own Data & Logic</h2>
+		<p class="text-center">Each SCS must include data and logic. To really implement any meaningful features both are needed. An SCS should implement features by itself and must therefore include both.</p>
+	</div>
+	<div class="tile">
+		<div class="characteristic-image"><img src="img/KP_Visual.svg" alt="Box" class="benefit-image-customizable"></div>
+		<h2 class="characteristic-heading">Own UI</h2>
+		<p class="text-center">An SCS should make its features usable to end-users via its own UI. Therefore the SCS should have no shared UI with other SCSs. SCSs might still have links to each other. However, asynchronous integration means that the SCS should still work even if the UI of another SCS is not available.</p>
+	</div>
+	<div class="tile">
+		<div class="characteristic-image"><img src="img/KP_Visual.svg" alt="Box" class="benefit-image-customizable"></div>
+		<h2 class="characteristic-heading">No Shared Business Logic</h2>
+		<p class="text-center">To avoid tight coupling an SCS should share no business code with other SCSs. It might be fine to create a pull-request for an SCS or use common libraries, e.g. database drivers or oAuth clients.</p>
+	</div>
+	<div class="tile">
+		<div class="characteristic-image"><img src="img/KP_Visual.svg" alt="Box" class="benefit-image-customizable"></div>
+		<h2 class="characteristic-heading">Hardly Shared Infrastructure</h2>
+		<p class="text-center">To make SCSs more robust and improve decoupling shared infrastructure can be minimized. E.g. a shared database make fail safeness and scalability of the SCSs depend on the central database. However, due to e.g. costs a shared database with separate schemas or data models per SCS can be a valid alternative.</p>
+	</div>
+</div>
 
+<h1 class="hero-heading text-centered">Slide Deck</h1>
+<div class="container-with-centered-buttons">
+	<a class="button w-button" href="https://speakerdeck.com/rstrangh/self-contained-systems-1">Get it on SpeakerDeck</a>
+	<a class="button w-button" href="https://res.cloudinary.com/innoq/image/upload/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.pdf">PDF</a>
+	<a class="button w-button" href="slidedeck/en/scs-infodeck-english.key">Keynote</a>
+	<a class="button w-button" href="slidedeck/en/scs-infodeck-english.pptx">PowerPoint</a>
+</div>
+<div class="container-with-slides">
+	<iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/e74a068d06a949cdb358a55ca17d2dc5" title="Self-Contained Systems" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 314;" data-ratio="1.78343949044586"></iframe>
+</div>
 
-
-	<h1 class="hero-heading text-centered">Slide Deck</h1>
-    <div class="container-with-centered-buttons">
-			<a class="button w-button" href="https://speakerdeck.com/rstrangh/self-contained-systems-1">Get it on SpeakerDeck</a>
-			<a class="button w-button" href="https://res.cloudinary.com/innoq/image/upload/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.pdf">PDF</a>
-			<a class="button w-button" href="slidedeck/en/scs-infodeck-english.key">Keynote</a>
-			<a class="button w-button" href="slidedeck/en/scs-infodeck-english.pptx">PowerPoint</a>
-		</div>
-		<div class="container-with-slides">
-			<iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/e74a068d06a949cdb358a55ca17d2dc5" title="Self-Contained Systems" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 314;" data-ratio="1.78343949044586"></iframe>
-		</div>
-
-    <p class="text-centered">
-			You would like to use this content?<br/>
-      Sure, SCS is licensed under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">creative commons attribution-sharealike 3.0 unported license</a>.
-		</p>
-    <p class="text-centered">
-			You have comments, questions?<br/>
-			Checkout the <a href="faq.html">FAQ</a> or join the <a href="discussion.html">discussions</a>.
-		</p>
-    <p class="text-centered">
-			You would like to contribute?<br/>
-			Go to <a href=""https://github.com/innoq/SCS"">Github</a>.
-		</p>
+<p class="text-centered">
+	You would like to use this content?<br/>
+	Sure, SCS is licensed under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">creative commons attribution-sharealike 3.0 unported license</a>.
+</p>
+<p class="text-centered">
+	You have comments, questions?<br/>
+	Checkout the <a href="faq.html">FAQ</a> or join the <a href="discussion.html">discussions</a>.
+</p>
+<p class="text-centered">
+	You would like to contribute?<br/>
+	Go to <a href=""https://github.com/innoq/SCS"">Github</a>.
+</p>
