@@ -5,17 +5,13 @@ description: Self-contained Systems (SCS) is a software architecture focused on 
 ---
 <header class="hero wf-section">
 	<div class="container-hero w-container">
-		<div class="hero-visual-container">
+		<div class="hero-container">
 			<div class="hero-main-content">
-				<h1 class="hero-heading">Definition</h1>
+				<h1 class="hero-heading">Self-contained System (SCS)</h1>
 
-				<h2 class="hero-subheading">The Self-contained System (SCS) approach is an architecture that
-					focuses on a separation of the functionality into many independent
-					systems, making the complete logical system a collaboration of many
-					smaller software systems.
-				</h2>
+				<h2 class="hero-subheading">An architectural approach to create a set of autonomous, smaller subsystems that collaborate to cover the functionality of the overall system.</h2>
 			</div>
-			<img src="img/scs-cut.png" alt="monolith cut into multiple scs">
+			<img src="img/KP_Visual.svg" alt="monolith cut into multiple scs">
 		</div>
 	</div>
 
@@ -24,42 +20,42 @@ description: Self-contained Systems (SCS) is a software architecture focused on 
 	<h1 class="hero-heading text-centered">Characteristics</h1>
 	<div class="container-with-tiles">
 		<div class="tile">
-			<div class="benefit-element"><img src="img/scs-cut.png" alt="Customized Kube Platform Visual" class="benefit-image-customizable"></div>
+			<div class="benefit-element"><img src="img/KP_Visual.svg" alt="Customized Kube Platform Visual" class="benefit-image-customizable"></div>
 			<h2 class="benefit-heading">Autonomous</h2>
 			<p class="text-center">Each SCS is an autonomous web application. For the SCS's domain, all data, the logic to process that data and all code to render the web interface is contained within the SCS. An SCS can fulfill its primary use cases on its own, without having to rely on other systems being available.</p>
 		</div>
 		<div class="tile">
-			<div class="benefit-element"><img src="img/scs-cut.png" alt="Box" class="benefit-image-customizable"></div>
+			<div class="benefit-element"><img src="img/KP_Visual.svg" alt="Box" class="benefit-image-customizable"></div>
 			<h2 class="benefit-heading">One Team</h2>
 			<p class="text-center">Each SCS is owned by one team. This does not necessarily mean that only one team can change the code, but the owning team has the final say on what goes into the code base, for example by merging pull-requests.</p>
 		</div>
 		<div class="tile">
-			<div class="benefit-element"><img src="img/scs-cut.png" alt="Box" class="benefit-image-customizable"></div>
+			<div class="benefit-element"><img src="img/KP_Visual.svg" alt="Box" class="benefit-image-customizable"></div>
 			<h2 class="benefit-heading">Asynchronous Dependencies</h2>
 			<p class="text-center">Communication with other SCSs or 3rd party systems is asynchronous wherever possible. Specifically, other SCSs or external systems should not be accessed synchronously within the SCS's own request/response cycle. This decouples the systems, reduces the effects of failure, and thus supports autonomy. The goal is decoupling concerning time: An SCS should work even if other SCSs are temporarily offline. This can be achieved even if the communication on the technical level is synchronous, e.g. by replicating data or buffering requests.</p>
 		</div>
 		<div class="tile">
-			<div class="benefit-element"><img src="img/scs-cut.png" alt="Box" class="benefit-image-customizable"></div>
+			<div class="benefit-element"><img src="img/Customizable.svg" alt="Box" class="benefit-image-customizable"></div>
 			<h2 class="benefit-heading">Service API is Optional</h2>
 			<p class="text-center">An SCS can have an optional service API. Because the SCS has its own web UI, it can interact with the user — without going through a UI service. However, an API for mobile clients or for other SCSs might still be useful.</p>
 		</div>
 		<div class="tile">
-			<div class="benefit-element"><img src="img/scs-cut.png" alt="Box" class="benefit-image-customizable"></div>
+			<div class="benefit-element"><img src="img/ReadyToUse.svg" alt="Box" class="benefit-image-customizable"></div>
 			<h2 class="benefit-heading">Own Data & Logic</h2>
 			<p class="text-center">Each SCS must include data and logic. To really implement any meaningful features both are needed. An SCS should implement features by itself and must therefore include both.</p>
 		</div>
 		<div class="tile">
-			<div class="benefit-element"><img src="img/scs-cut.png" alt="Box" class="benefit-image-customizable"></div>
+			<div class="benefit-element"><img src="img/KP_Visual.svg" alt="Box" class="benefit-image-customizable"></div>
 			<h2 class="benefit-heading">Own UI</h2>
 			<p class="text-center">An SCS should make its features usable to end-users via its own UI. Therefore the SCS should have no shared UI with other SCSs. SCSs might still have links to each other. However, asynchronous integration means that the SCS should still work even if the UI of another SCS is not available.</p>
 		</div>
 		<div class="tile">
-			<div class="benefit-element"><img src="img/scs-cut.png" alt="Box" class="benefit-image-customizable"></div>
+			<div class="benefit-element"><img src="img/KP_Visual.svg" alt="Box" class="benefit-image-customizable"></div>
 			<h2 class="benefit-heading">No Shared Business Logic</h2>
 			<p class="text-center">To avoid tight coupling an SCS should share no business code with other SCSs. It might be fine to create a pull-request for an SCS or use common libraries, e.g. database drivers or oAuth clients.</p>
 		</div>
 		<div class="tile">
-			<div class="benefit-element"><img src="img/scs-cut.png" alt="Box" class="benefit-image-customizable"></div>
+			<div class="benefit-element"><img src="img/KP_Visual.svg" alt="Box" class="benefit-image-customizable"></div>
 			<h2 class="benefit-heading">Hardly Shared Infrastructure</h2>
 			<p class="text-center">To make SCSs more robust and improve decoupling shared infrastructure can be minimized. E.g. a shared database make fail safeness and scalability of the SCSs depend on the central database. However, due to e.g. costs a shared database with separate schemas or data models per SCS can be a valid alternative.</p>
 		</div>
