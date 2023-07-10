@@ -11,18 +11,35 @@
   row-gap: 3rem;
 }
 
-.container-with-slides {
+.container-with-the-idea {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
   margin-left: 10%;
   margin-right: 10%;
-  margin-bottom: 5rem;
 }
 
-.container-with-centered-buttons {
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-bottom: 5rem;
+.idea {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: row;
+  gap: 2rem;
+  padding: 5rem;
+}
+
+.idea img {
+  max-width: 33%;
+  max-height: 70rem;
+}
+
+.idea div {
+  width: 66%;
+}
+
+.idea-text {
+ font-size: 2rem;
+ align-self: center;
+ margin: 2rem;
+ min-width: 66%;
 }
 
 .hero-image {

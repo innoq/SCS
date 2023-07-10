@@ -60,18 +60,183 @@ description: Self-contained Systems (SCS) is a software architecture focused on 
 	</div>
 </div>
 
-<h1 class="hero-heading text-centered">Slide Deck</h1>
-<div class="container-with-centered-buttons">
-	<a class="button w-button" href="https://speakerdeck.com/rstrangh/self-contained-systems-1">Get it on SpeakerDeck</a>
-	<a class="button w-button" href="https://res.cloudinary.com/innoq/image/upload/v1661258993/scs-architecture.org/scs-infodeck-english_adsqcx.pdf">PDF</a>
-	<a class="button w-button" href="slidedeck/en/scs-infodeck-english.key">Keynote</a>
-	<a class="button w-button" href="slidedeck/en/scs-infodeck-english.pptx">PowerPoint</a>
-</div>
-<div class="container-with-slides">
-	<iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/e74a068d06a949cdb358a55ca17d2dc5" title="Self-Contained Systems" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 314;" data-ratio="1.78343949044586"></iframe>
+<h1 class="hero-heading text-centered">The Idea</h1>
+<div class="container-with-the-idea">
+	<div class="idea">
+		<img src="img/monolith.png" alt="a monolith"/>
+		<p class="text-center idea-text">A monolith contains <b>numerous</b> things inside of a single system …</p>
+	</div>
+	<div class="idea">
+		<p class="text-center idea-text">Various Domains</p>
+		<img src="img/monolith-with-domains.png" alt="a monolith holds several domains"/>
+	</div>
+	<div class="idea">
+		<img src="img/monolith-with-layers.png" alt="a monolith holds several layers"/>
+		<p class="text-center idea-text">
+			<span style="color:#9191a5;"><b>User Interface</b></span><br/>
+			<span style="color:#99e8d6"><b>Business Logic</b></span><br/>
+			<span style="color:#fe9dae"><b></b>Persistence</b></span>
+		</p>
+	</div>
+	<div class="idea">
+		<p class="text-center idea-text">… as well as a <b>lot</b> of modules, components, frameworks and libraries.</p>
+		<img src="img/monolith-with-components.png" alt="a monolith holds several components"/>
+	</div>
+	<div class="idea">
+		<img src="img/monolith-with-layers-domains-components.png" alt="a monolith holds several domains, layers, and components"/>
+		<p class="text-center idea-text">With all these layers in one place, a monolith tends to <b>grow</b>...</p>
+	</div>
+	<div class="idea">
+		<p class="text-center idea-text" style="max-width:50%">... and to <b>grow</b>.</p>
+		<img src="img/monolith-with-layers-domains-components-growing.png" style="width:45%;max-width:45%;" alt="the monolith grows"/>
+	</div>
+	<div class="idea">
+		<img src="img/scs-multiple-slices.png" alt="the monolith grows and grows..."/>
+		<p class="text-center idea-text">If you cut a monolithic system along its very domains …</p>
+	</div>
+	<div class="idea">
+		<p class="text-center idea-text">… and wrap every domain in a <b>separate</b>, <b>replaceable</b> web application …</p>
+		<img src="img/scs-selected-slice.png" alt="a monolith cut into domains"/>
+	</div>
+	<div class="idea">
+		<img src="img/scs-single-slice.png" alt="a single scs"/>
+		<p class="text-center idea-text">… then that application can be referred to as a <b>self-contained system</b> (SCS).</p>
+	</div>
+	<div class="idea">
+		<p class="text-center idea-text">On its outside, an SCS is a decentralized unit that is communicating with other systems via <b>RESTful HTTP or lightweight messaging.</b></p>
+		<img src="img/scs-single-slice-in-out.png" alt="RESTful HTTP or messaging for inter scs communication"/>
+	</div>
+	<div class="idea">
+		<img src="img/scs-on-platform.png" alt="SCS on different platforms"/>
+		<p class="text-center idea-text">Therefore self-contained systems can be individually developed for <b>different platforms.</b></p>
+	</div>
+	<div class="idea">
+		<p class="text-center idea-text">
+			<span>An SCS contains its own </span>
+			<span style="color:#9191a5;"><b>user interface</b></span>
+				<span>, specific </span>
+				<span style="color:#99e8d6"><b>business logic</b></span>
+			  <span> and separate </span>
+			  <span style="color:#fe9dae"><b>data storage</b></span>
+			  <span>.</span>
+		</p>
+		<img src="img/scs-own-ui-bl-db.png" alt="scs has own ui, business layer, persistence layer"/>
+	</div>
+	<div class="idea">
+		<img src="img/scs-roca.png" alt="scs adheres to roca principles"/>
+		<p class="text-center idea-text">The user interface consists of web technologies that are composed according to	<b>ROCA principles.</b></p>
+	</div>
+	<div class="idea">
+		<p class="text-center idea-text">Besides a web interface a self-contained system can provide an <b>optional API</b>.</p>
+		<img src="img/scs-optional-api.png" alt="scs has an optional api"/>
+	</div>
+	<div class="idea">
+		<img src="img/scs-autonomous-bl.png" alt="scs has an autonomous business layer"/>
+		<p class="text-center idea-text">The business logic part <b>only</b> solves problems that arise in its core domain. This logic is only shared with other systems over a <b>well defined interface.</b></p>
+	</div>
+	<div class="idea">
+		<p class="text-center idea-text">The business logic can consist of <b>microservices</b> to solve domain specific problems.</p>
+		<img src="img/microservices.png" alt="business logic might be microservices"/>
+	</div>
+	<div class="idea">
+		<img src="img/scs-own-data-storage.png" alt="scs has own persistence layer"/>
+		<p class="text-center idea-text">Every SCS brings its <b>own data storage</b> and with it redundant data depending on the context and domain.</p>
+	</div>
+	<div class="idea">
+		<p class="text-center idea-text">These redundancies are tolerable as long as the <b>sovereignty of data</b> by its owning system is not undermined.</p>
+		<img src="img/scs-sovereignty.png" alt="redundancies between scs"/>
+	</div>
+	<div class="idea">
+		<img src="img/scs-polyglot.png" alt="polyglot persistence"/>
+		<p class="text-center idea-text">This enables <b>polyglot persistence</b>, which means a database can be chosen to solve a domain specific problem rather than to fulfill a technical urge.</p>
+	</div>
+	<div class="idea">
+		<p class="text-center idea-text">Inside of a self-contained system a bunch of <b>technical decisions</b> can be made independently of other systems, such as programming language, frameworks, tooling or workflow.</p>
+		<img src="img/scs-technical-decisions.png" alt="independent technical decisions"/>
+	</div>
+	<div class="idea">
+		<img src="img/scs-single-team.png" alt="one scs one team"/>
+		<p class="text-center idea-text">The manageable domain specific scope enables the development, operation and maintenance of an SCS by a <b>single team.</b></p>
+	</div>
+	<div class="idea">
+		<p class="text-center idea-text">Self-contained Systems should be integrated over their <b>web interfaces</b> to minimize coupling to other systems.</p>
+		<img src="img/scs-web-interfaces.png" alt="integration over web interfaces"/>
+	</div>
+	<div class="idea">
+		<img src="img/scs-hyperlinks.png" alt="hyperlinks to navigate between scs"/>
+		<p class="text-center idea-text">Therefore simple <b>hyperlinks</b> can be used to navigate between systems.</p>
+	</div>
+	<div class="idea">
+		<p class="text-center idea-text">A <b>redirection</b> can be used to ensure navigation works in both directions.</p>
+		<img src="img/scs-redirection.png" alt="redirection to ensure navigation works in both directions"/>
+	</div>
+	<div class="idea">
+		<img src="img/scs-dynamic-inclusion.png" alt="dynamic inclusion"/>
+		<p class="text-center idea-text">Hyperlinks can also support the <b>dynamic inclusion</b> of content that is served by another application into the web interface of a self-contained system.</p>
+	</div>
+	<div class="idea">
+		<p class="text-center idea-text">To further minimize coupling to other systems, synchronous remote calls inside the business logic should be <b>avoided</b>.</p>
+		<img src="img/scs-hardly-synchronous-calls.png" alt="minimized doupling to other systems"/>
+	</div>
+	<div class="idea">
+		<img src="img/scs-asynchronous-api-calls.png" alt="asynchronous remote api"/>
+		<p class="text-center idea-text">Instead remote API calls should be handled asynchronously to reduce dependencies and prevent error cascades.</p>
+	</div>
+	<div class="idea">
+		<p class="text-center idea-text">This implies that – depending on the desired rate of updates – the data model’s consistency guarantees are <b>relaxed</b>.</p>
+		<img src="img/scs-asynchronous-api-calls.png" alt="relaxed model consistency"/>
+	</div>
+	<div class="idea">
+		<img src="img/scs-system-of-systems.png" alt="system of systems"/>
+		<p class="text-center idea-text">An integrated <b>system of systems</b> like this has many benefits.</p>
+	</div>
+	<div class="idea">
+		<p class="text-center idea-text">Overall <b>resilience</b> is improved through loosely coupled, replaceable systems.</p>
+		<img src="img/scs-resilience.png" alt="resilience"/>
+	</div>
+	<div class="idea">
+		<img src="img/scs-individually-scaled.png" alt="individual scaling"/>
+		<p class="text-center idea-text">Some systems can be <b>individually</b> scaled to serve varying demands.</p>
+	</div>
+	<div class="idea">
+		<p class="text-center idea-text">It is not necessary to perform a risky <b>big bang release</b> to migrate an outdated, monolithic system into a system of systems.</p>
+		<img src="img/scs-version1.png" alt="no big bang release 1"/>
+	</div>
+	<div class="idea">
+		<img src="img/scs-version2.png" alt="no big bang release 2"/>
+		<p class="text-center idea-text">It is not necessary to perform a risky <b>big bang release</b> to migrate an outdated, monolithic system into a system of systems.</p>
+	</div>
+	<div class="idea">
+		<p class="text-center idea-text">Instead a migration can happen in small, manageable steps which minimize the risk of failure and lead to an <b>evolutionary modernization</b>	of big and complex systems.</p>
+		<img src="img/scs-evolutionary-modernization1.png" alt="evolutionary modernization 1"/>
+	</div>
+	<div class="idea">
+		<img src="img/scs-evolutionary-modernization.png" alt="evolutionary modernization 2"/>
+		<p class="text-center idea-text">Instead a migration can happen in small, manageable steps which minimize the risk of failure and lead to an <b>evolutionary modernization</b>	of big and complex systems.</p>
+	</div>
+	<div class="idea">
+		<p class="text-center idea-text">In reality a system of systems consists of individually developed software <b>and</b> standard products.</p>
+		<img src="img/scs-standard-products.png" alt="usage of standard products in scs"/>
+	</div>
+	<div class="idea">
+		<img src="img/scs-product.png" alt="example of a standard product in an scs"/>
+		<p class="text-center idea-text">A product that fits well in a system of systems can be chosen by the following aspects: It has to solve a <b>defined set of tasks</b>and provide the same <b>integration mechanisms</b> that a self-contained system offers.</p>
+	</div>
+	<div class="idea">
+		<p class="text-center idea-text">This ensures that products can be <b>replaced safely</b> by other products once their lifetime has ended.</p>
+		<img src="img/scs-product-replacability.png" alt="replaced product safely 1"/>
+	</div>
+	<div class="idea">
+		<img src="img/scs-product-replacability1.png" alt="replaced product safely 2"/>
+		<p class="text-center idea-text">This ensures that products can be <b>replaced safely</b> by other products once their lifetime has ended.</p>
+	</div>
+	<div class="idea">
+		<p class="text-center idea-text">If a product with such integration mechanisms can not be found, it should at least be possible to extend that product with <b>uniform interfaces</b> that integrate well with the rest of the system.</p>
+		<img src="img/scs-uniform-interfaces.png" alt="uniform interface for all scs"/>
+	</div>
 </div>
 
-<p class="text-centered">
+<p class="text-center">
 	You would like to use this content?<br/>
 	Sure, SCS is licensed under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">creative commons attribution-sharealike 3.0 unported license</a>.
 </p>
@@ -81,5 +246,5 @@ description: Self-contained Systems (SCS) is a software architecture focused on 
 </p>
 <p class="text-centered">
 	You would like to contribute?<br/>
-	Go to <a href=""https://github.com/innoq/SCS"">Github</a>.
+	Go to <a href="https://github.com/innoq/SCS">Github</a>.
 </p>
