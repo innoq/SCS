@@ -49,12 +49,24 @@
   gap: 2rem;
 }
 
+.idea div {
+  order: 1;
+}
+
+.idea p {
+  order: 2;
+}
+
 @media screen and (min-width: 1024px) {
   .idea {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     gap: 2rem;
   }
+
+  .idea:nth-of-type(even) p {
+    order: -1;
+  } 
 }
 
 
