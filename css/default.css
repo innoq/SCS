@@ -1,8 +1,27 @@
+html {
+	font-size: 100%;
+	box-sizing: border-box;
+}
+
 body {
   color: #333;
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-  font-size: 14px;
+	padding: 0;
   line-height: 20px;
+}
+
+.container {
+  margin-top: 25rem;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    margin-top: 8rem;
+    margin-left: 15vw;
+    margin-right: 15vw;
+  }
 }
 
 h1 {
@@ -121,25 +140,6 @@ li {
   padding-bottom: 60px;
 }
 
-.container {
-  background-color: rgba(0, 0, 0, 0);
-  margin-top: 90px;
-  margin-bottom: 210px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.container-with-markdown {
-  max-width: 940px;
-  display: flex;
-  flex-direction: column;
-}
-
-.container-with-discussion {
-  min-width: 60%;
-}
 
 .nav-link {
   color: #6351fe;

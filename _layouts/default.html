@@ -1,56 +1,61 @@
 <!DOCTYPE html>
-<html lang="en" class="w-mod-js">
-  <head>
-    <title>{{ page.title }}</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{{page.description}}">
-    <link rel="stylesheet" href="css/webflow.css">
-    <link rel="stylesheet" href="css/default.css">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="icon" type="image/svg+xml" href="./img/favicon.svg" sizes="any">
-    <script defer data-domain="scs-architecture.org" src="https://plausible.io/js/script.outbound-links.js"></script>
-    <script type="module" src="js/custom-elements.js"></script>
-  </head>
-  <body class="body">
-    <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
-      <div class="navbar-container w-container">
-        <nav role="navigation" class="nav-menu w-nav-menu">
-          <div class="nav-link-div">
-            <a href="index.html" aria-current="page" class="nav-link w-nav-link {% if page.name == 'index.html' %} w--current {% endif %}">What</a>
-          </div>
-          <div class="nav-link-div">
-            <a href="why.html" class="nav-link w-nav-link {% if page.name == 'why.md' %} w--current {% endif %}">Why</a>
-          </div>
-          <div class="nav-link-div">
-            <a href="faq.html" class="nav-link w-nav-link {% if page.name == 'faq.md' %} w--current {% endif %}">FAQ</a>
-          </div>
-          <div class="nav-link-div">
-            <a href="vs-ms.html" class="nav-link w-nav-link {% if page.name == 'vs-ms.md' %} w--current {% endif %}">SCS vs. Microservice</a>
-          </div>
-          <div class="nav-link-div">
-            <a href="links.html" class="nav-link w-nav-link {% if page.name == 'links.md' %} w--current {% endif %}">Links</a>
-          </div>
-        </nav>
-        <div class="div-block">
-          <a href="https://github.com/innoq/SCS" class="nav-button-view w-button">Get it on Github</a>
+<html lang="en">
+
+<head>
+  <title>{{ page.title }}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{page.description}}">
+  <link rel="stylesheet" href="css/vars.css">
+  <link rel="stylesheet" href="css/webflow.css">
+  <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="icon" type="image/svg+xml" href="./img/favicon.svg" sizes="any">
+  <script defer data-domain="scs-architecture.org" src="https://plausible.io/js/script.outbound-links.js"></script>
+</head>
+
+<body class="body">
+
+  <!-- todo mobile -->
+  <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease"
+    role="banner" class="navbar w-nav">
+    <div class="navbar-container w-container">
+      <nav role="navigation" class="nav-menu w-nav-menu">
+        <div class="nav-link-div">
+          <a href="index.html" aria-current="page"
+            class="nav-link w-nav-link {% if page.name == 'index.html' %} w--current {% endif %}">What</a>
         </div>
-        <div class="menu-button w-nav-button">
-          <div class="icon w-icon-nav-menu"></div>
+        <div class="nav-link-div">
+          <a href="why.html" class="nav-link w-nav-link {% if page.name == 'why.md' %} w--current {% endif %}">Why</a>
         </div>
+        <div class="nav-link-div">
+          <a href="faq.html" class="nav-link w-nav-link {% if page.name == 'faq.md' %} w--current {% endif %}">FAQ</a>
+        </div>
+        <div class="nav-link-div">
+          <a href="vs-ms.html" class="nav-link w-nav-link {% if page.name == 'vs-ms.md' %} w--current {% endif %}">SCS
+            vs. Microservice</a>
+        </div>
+        <div class="nav-link-div">
+          <a href="links.html"
+            class="nav-link w-nav-link {% if page.name == 'links.md' %} w--current {% endif %}">Links</a>
+        </div>
+      </nav>
+      <div class="div-block">
+        <a href="https://github.com/innoq/SCS" class="nav-button-view w-button">Get it on Github</a>
+      </div>
+      <div class="menu-button w-nav-button">
+        <div class="icon w-icon-nav-menu"></div>
       </div>
     </div>
-    {{ page.name }}
+  </div>
+  <main>
     {% if page.name != 'index.html' %}
-    <div class="container">
-      <div class="{% if page.name == 'discussion.html' %} container-with-discussion {% else %} container-with-markdown {% endif %}">
-        {% endif %}
-        {{ content }}
-        {% if page.name != 'index.html' %}
-      </div>
-    </div>
+      <section class="container">{{ content }}</section>
+    {% else %}
+      {{ content }}
     {% endif %}
-    <footer class="footer wf-section">
+  </main>
+  <footer class="footer wf-section">
       <div class="footer-container w-container">
         <a href="https://www.innoq.com/en/?pk_campaign=octopim&amp;pk_source=octopim-lp" target="_blank" class="link-footer">
           <img src="img/INNOQ_Logo.svg" alt="INNOQ Logo" class="footer-logo"></img>
@@ -62,5 +67,6 @@
         </p>
       </div>
     </footer>
-  </body>
+</body>
+
 </html>
