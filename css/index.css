@@ -13,7 +13,7 @@
 .tile {
   background-color: #f8f8fa;
   padding: 5%;
-} 
+}
 
 .tile__heading {
   text-align: center;
@@ -38,8 +38,8 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  max-width: 1024px;
   justify-content: center;
+  align-items: center;
 }
 
 .idea {
@@ -66,7 +66,7 @@
 
   .idea:nth-of-type(even) p {
     order: -1;
-  } 
+  }
 }
 
 
