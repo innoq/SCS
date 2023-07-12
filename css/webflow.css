@@ -14,12 +14,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.w-icon-slider-right:before {
-  content: "\e600";
-}
-.w-icon-slider-left:before {
-  content: "\e601";
-}
 .w-icon-nav-menu:before {
   content: "\e602";
 }
@@ -66,60 +60,6 @@ img {
   text-decoration: none;
   cursor: pointer;
   border-radius: 0;
-}
-input.w-button {
-  -webkit-appearance: button;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-h1 {
-  font-size: 38px;
-  line-height: 44px;
-  margin-top: 20px;
-}
-h2 {
-  font-size: 32px;
-  line-height: 36px;
-  margin-top: 20px;
-}
-h3 {
-  font-size: 24px;
-  line-height: 30px;
-  margin-top: 20px;
-}
-h4 {
-  font-size: 18px;
-  line-height: 24px;
-  margin-top: 10px;
-}
-h5 {
-  font-size: 14px;
-  line-height: 20px;
-  margin-top: 10px;
-}
-h6 {
-  font-size: 12px;
-  line-height: 18px;
-  margin-top: 10px;
-}
-p {
-  margin-top: 0;
-  margin-bottom: 10px;
-}
-
-ul,
-ol {
-  margin-top: 0px;
-  margin-bottom: 10px;
-  padding-left: 40px;
 }
 
 .w-container {

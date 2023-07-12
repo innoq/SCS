@@ -50,13 +50,13 @@
   </div>
   <main>
     {% if page.name != 'index.html' %}
-      <section class="container">{{ content }}</section>
+      <section class="container offset-top">{{ content }}</section>
     {% else %}
       {{ content }}
     {% endif %}
   </main>
-  <footer class="footer wf-section">
-      <div class="footer-container w-container">
+  <footer class="footer">
+      <div class="container footer-container">
         <a href="https://www.innoq.com/en/?pk_campaign=octopim&amp;pk_source=octopim-lp" target="_blank" class="link-footer">
           <img src="img/INNOQ_Logo.svg" alt="INNOQ Logo" class="footer-logo"></img>
         </a>

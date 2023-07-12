@@ -11,16 +11,25 @@ body {
 }
 
 .container {
+  padding: 0 var(--content-minimum-side-spacing);
+  max-width: var(--content-max-width);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    padding: 0;
+  }
+}
+
+.offset-top {
   margin-top: 25rem;
-  margin-left: 5vw;
-  margin-right: 5vw;
 }
 
 @media screen and (min-width: 768px) {
-  .container {
+  .offset-top {
     margin-top: 8rem;
-    margin-left: 15vw;
-    margin-right: 15vw;
   }
 }
 
@@ -295,11 +304,6 @@ li {
 
 @media screen and (max-width: 991px) {
 
-  .container {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
   .hero-heading {
     margin-right: 0;
     font-size: 3rem;
@@ -341,10 +345,6 @@ li {
 }
 
 @media screen and (max-width: 767px) {
-  .container {
-    margin-top: 400px;
-  }
-
   .footer-container {
     padding-left: 20px;
     padding-right: 20px;
@@ -397,10 +397,6 @@ li {
 }
 
 @media screen and (max-width: 479px) {
-  h2 {
-    font-family: Fontfont mark pro, sans-serif;
-  }
-
   .footer-container {
     padding-left: 20px;
     padding-right: 20px;
