@@ -1,12 +1,12 @@
 html {
-	font-size: 100%;
-	box-sizing: border-box;
+  font-size: 100%;
+  box-sizing: border-box;
 }
 
 body {
   color: #333;
   font-family: Fontfont mark pro book, sans-serif;
-	padding: 0;
+  padding: 0;
   line-height: 20px;
 }
 
@@ -15,6 +15,16 @@ body {
   max-width: var(--content-max-width);
   margin-left: auto;
   margin-right: auto;
+}
+
+section.container > h2 {
+  font-size: 4rem;
+  font-weight: 400;
+  margin-bottom: 4rem;
+}
+
+.container-spacing {
+  margin-top: 5rem;
 }
 
 @media screen and (min-width: 1440px) {
