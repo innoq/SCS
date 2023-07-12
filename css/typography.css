@@ -1,0 +1,138 @@
+h1 {
+    color: #2e343b;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Fontfont mark pro, sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 4rem;
+}
+
+h2 {
+    color: #2e343b;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Fontfont mark pro, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 2.5rem;
+}
+
+h3 {
+    color: #2e343b;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Fontfont mark pro, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+h4 {
+    color: #2e343b;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: Fontfont mark pro, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+h5 {
+    color: #2e343b;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Fontfont mark pro, sans-serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+}
+
+p {
+    color: #2e343b;
+    margin-bottom: 1.75rem;
+    font-family: Fontfont mark pro book, sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+a {
+    color: #6351fe;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0 solid #000;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: Fontfont mark pro book, sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    text-decoration: underline;
+    display: inline-block;
+}
+
+a:hover {
+    color: #fff;
+    background-color: #6351fe;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    font-family: Fontfont mark pro book, sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 20px;
+}
+
+li {
+    color: #2e343b;
+    font-family: Fontfont mark pro book, sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+@font-face {
+    font-family: 'Hack';
+    src: url('../fonts/Hack-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: auto;
+}
+
+@font-face {
+    font-family: 'Garagefonts freighttext pro book';
+    src: url('../fonts/GarageFonts---FreightText-Pro-Book-Italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-display: auto;
+}
+
+@font-face {
+    font-family: 'Fontfont mark pro';
+    src: url('../fonts/FontFont---Mark-Pro-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: auto;
+}
+
+@font-face {
+    font-family: 'Fontfont mark pro';
+    src: url('../fonts/FontFont---Mark-Pro-Heavy.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: auto;
+}
+
+@font-face {
+    font-family: 'Fontfont mark pro book';
+    src: url('../fonts/FontFont---Mark-Pro-Book.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: auto;
+}
