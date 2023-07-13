@@ -1,5 +1,5 @@
 h1 {
-    color: #2e343b;
+    color: var(--color-headings);
     margin-top: 20px;
     margin-bottom: 10px;
     font-family: Fontfont mark pro, sans-serif;
@@ -9,7 +9,7 @@ h1 {
 }
 
 h2 {
-    color: #2e343b;
+    color: var(--color-headings);
     margin-top: 20px;
     margin-bottom: 10px;
     font-family: Fontfont mark pro, sans-serif;
@@ -19,7 +19,7 @@ h2 {
 }
 
 h3 {
-    color: #2e343b;
+    color: var(--color-headings);
     margin-top: 20px;
     margin-bottom: 10px;
     font-family: Fontfont mark pro, sans-serif;
@@ -29,7 +29,7 @@ h3 {
 }
 
 h4 {
-    color: #2e343b;
+    color: var(--color-headings);
     margin-top: 10px;
     margin-bottom: 20px;
     font-family: Fontfont mark pro, sans-serif;
@@ -39,7 +39,7 @@ h4 {
 }
 
 h5 {
-    color: #2e343b;
+    color: var(--color-headings);
     margin-top: 10px;
     margin-bottom: 10px;
     font-family: Fontfont mark pro, sans-serif;
@@ -49,7 +49,7 @@ h5 {
 }
 
 p {
-    color: #2e343b;
+    color: var(--color-headings);
     margin-bottom: 1.75rem;
     font-family: Fontfont mark pro book, sans-serif;
     font-size: 1.125rem;
@@ -57,7 +57,7 @@ p {
 }
 
 a {
-    color: #6351fe;
+    color: var(--color-primary);
     background-color: rgba(0, 0, 0, 0);
     border: 0 solid #000;
     padding-bottom: 0;
@@ -72,7 +72,7 @@ a {
 
 a:hover {
     color: #fff;
-    background-color: #6351fe;
+    background-color: var(--color-primary);
 }
 
 ul {
@@ -91,7 +91,7 @@ ol {
 }
 
 li {
-    color: #2e343b;
+    color: var(--color-headings);
     font-family: Fontfont mark pro book, sans-serif;
     font-size: 1.125rem;
     line-height: 1.75rem;

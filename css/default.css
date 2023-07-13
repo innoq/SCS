@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  color: #333;
+  color: var(--color-text);
   font-family: Fontfont mark pro book, sans-serif;
   padding: 0;
   margin: 0;
@@ -49,13 +49,13 @@ section.container > h2 {
 }
 
 .footer {
-  background-color: #2e343b;
+  background-color: var(--color-secondary);
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
 .nav-link {
-  color: #6351fe;
+  color: var(--color-primary);
   margin-right: 24px;
   padding-left: 0;
   padding-right: 0;
@@ -65,14 +65,14 @@ section.container > h2 {
 }
 
 .nav-link:hover {
-  color: #6351fe;
+  color: var(--color-primary);
   background-color: rgba(0, 0, 0, 0);
 }
 
 .nav-link.w--current {
-  color: #6351fe;
+  color: var(--color-primary);
   border-bottom-width: 3px;
-  border-bottom-color: #6351fe;
+  border-bottom-color: var(--color-primary);
   border-radius: 0;
   padding-bottom: 0;
 }
@@ -93,7 +93,7 @@ section.container > h2 {
 }
 
 .footer-heading {
-  color: #6351fe;
+  color: var(--color-primary);
   font-family: Fontfont mark pro book, sans-serif;
   font-size: 1.25rem;
   line-height: 2rem;
@@ -115,7 +115,7 @@ section.container > h2 {
 }
 
 .navbar {
-  background-color: #f8f8fa;
+  background-color: var(--color-bg);
   position: fixed;
   top: 0%;
   bottom: auto;
@@ -130,9 +130,9 @@ section.container > h2 {
 
 .nav-button-view {
   float: none;
-  color: #6351fe;
+  color: var(--color-primary);
   background-color: rgba(0, 0, 0, 0);
-  border: 3px solid #6351fe;
+  border: 3px solid var(--color-primary);
   margin-top: 0;
   padding-top: 8px;
   padding-bottom: 10px;
@@ -141,9 +141,9 @@ section.container > h2 {
 }
 
 .nav-button-view:hover {
-  color: #2e343b;
+  color: var(--color-secondary);
   background-color: rgba(0, 0, 0, 0);
-  border-color: #2e343b;
+  border-color: var(--color-secondary);
 }
 
 .div-block {
@@ -164,7 +164,7 @@ section.container > h2 {
 }
 
 .link-footer:hover {
-  color: #6351fe;
+  color: var(--color-primary);
   background-color: rgba(0, 0, 0, 0);
 }
 
@@ -212,7 +212,7 @@ section.container > h2 {
   }
 
   .menu-button.w--open {
-    background-color: #6351fe;
+    background-color: var(--color-primary);
   }
 
   .navbar-container {

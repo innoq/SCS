@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   min-height: 100vh;
-  background-color: #f8f8fa;
+  background-color: var(--color-bg);
 }
 
 .page-cover-container {
@@ -63,7 +63,7 @@
 }
 
 .tile {
-  background-color: #f8f8fa;
+  background-color: var(--color-bg);
   padding: 5%;
 }
 
