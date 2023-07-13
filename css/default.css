@@ -19,7 +19,7 @@ body {
 }
 
 section.container > h2 {
-  font-size: 4rem;
+  font-size: 2.5rem;
   font-weight: 400;
   margin-bottom: 4rem;
 }
@@ -41,6 +41,10 @@ section.container > h2 {
 @media screen and (min-width: 768px) {
   .offset-top {
     margin-top: 8rem;
+  }
+
+  section.container > h2 {
+    font-size: 4rem;
   }
 }
 
