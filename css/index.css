@@ -1,3 +1,7 @@
+.anchor-icon {
+  height: 1.5rem;
+}
+
 .page-cover {
   display: flex;
   flex-direction: column;
@@ -44,7 +48,7 @@
   .page-cover-container h1 {
     font-size: 4rem;
   }
-  
+
   .page-cover-container h2 {
     font-size: 2rem;
   }
@@ -68,7 +72,21 @@
 }
 
 .tile__heading {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  gap: 0.5rem;
+}
+
+.tile__heading-anchor {
+  display: flex;
+  align-items: center;
+}
+
+.tile__heading-text {
+  margin: 0;
 }
 
 .tile__img-container img {
