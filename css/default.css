@@ -7,6 +7,7 @@ body {
   color: #333;
   font-family: Fontfont mark pro book, sans-serif;
   padding: 0;
+  margin: 0;
   line-height: 20px;
 }
 
@@ -43,17 +44,6 @@ section.container > h2 {
   }
 }
 
-.hero {
-  min-height: 100vh;
-  background-color: #f8f8fa;
-  flex-flow: column;
-  justify-content: flex-end;
-  align-items: flex-start;
-  margin-left: 0;
-  padding-left: 0;
-  display: flex;
-}
-
 .footer {
   background-color: #2e343b;
   padding-top: 60px;
@@ -83,13 +73,6 @@ section.container > h2 {
   padding-bottom: 0;
 }
 
-.hero-heading {
-  margin-right: 70px;
-  font-family: Fontfont mark pro, sans-serif;
-  font-size: 4rem;
-  font-weight: 400;
-}
-
 .text-center {
   text-align: center;
 }
@@ -103,23 +86,6 @@ section.container > h2 {
   justify-content: center;
   margin-bottom: 0;
   display: flex;
-}
-
-
-.hero-container {
-  max-width: 940px;
-  flex-wrap: nowrap;
-  align-items: center;
-  margin-top: -60px;
-  display: flex;
-  position: relative;
-  gap: 2rem;
-}
-
-.hero-subheading {
-  font-family: Fontfont mark pro, sans-serif;
-  font-weight: 900;
-  line-height: 2.4rem;
 }
 
 .footer-heading {
@@ -137,15 +103,6 @@ section.container > h2 {
 
 .footer-logo {
   margin-bottom: 20px;
-}
-
-.container-hero {
-  max-width: none;
-  flex: 1;
-  align-self: auto;
-  align-items: center;
-  display: flex;
-  position: relative;
 }
 
 .nav-menu {
@@ -209,20 +166,6 @@ section.container > h2 {
 
 @media screen and (max-width: 991px) {
 
-  .hero-heading {
-    margin-right: 0;
-    font-size: 3rem;
-    font-weight: 150;
-  }
-
-  .hero-container {
-    margin-top: -100px;
-  }
-
-  .hero-main-content {
-    margin-right: 40px;
-  }
-
   .navbar {
     margin-left: auto;
     margin-right: auto;
@@ -264,28 +207,6 @@ section.container > h2 {
     margin-bottom: 20px;
   }
 
-  .hero-heading {
-    margin-right: 0;
-  }
-
-  .hero-container {
-    flex-direction: column-reverse;
-    margin-top: 0;
-    margin-bottom: 60px;
-  }
-
-  .container-hero {
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 100px;
-    padding: 5px 20px;
-    display: block;
-  }
-
-  .hero-main-content {
-    margin-right: 0;
-  }
-
   .menu-button.w--open {
     background-color: #6351fe;
   }
@@ -313,31 +234,9 @@ section.container > h2 {
     display: block;
   }
 
-  .hero-heading {
-    margin-right: 0;
-    font-size: 2rem;
-  }
-
-  .hero-container {
-    margin-top: 0;
-    padding-top: 0;
-  }
-
   .footer-heading {
     font-size: 1rem;
     line-height: 1.6rem;
-  }
-
-  .container-hero {
-    object-fit: fill;
-    padding-top: 60px;
-    display: block;
-    position: static;
-    overflow: visible;
-  }
-
-  .hero-main-content {
-    z-index: 1;
   }
 
   .div-block {
