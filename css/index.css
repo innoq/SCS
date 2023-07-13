@@ -146,6 +146,10 @@
   height: 25rem;
 }
 
+.idea__img-container.idea__img--large img{
+  max-width:24rem;
+}
+
 .idea img {
   object-fit: contain;
   width: 100%;
