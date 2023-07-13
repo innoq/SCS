@@ -8,7 +8,6 @@
   <meta name="description" content="{{page.description}}">
   <link rel="stylesheet" href="css/vars.css">
   <link rel="stylesheet" href="css/typography.css">
-  <link rel="stylesheet" href="css/webflow.css">
   <link rel="stylesheet" href="css/default.css">
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/navigation.css">
@@ -17,27 +16,27 @@
 </head>
 
 <body>
-
-  <!-- todo mobile -->
   <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease"
-    role="banner" class="navbar w-nav">
+    role="banner" class="topbar">
     <div class="container">
-      <nav role="navigation" class="nav-menu w-nav-menu menu" id="menu" aria-label="menu">
-        <a class="menu-icon-link" href="#" aria-label="Close menu">
-          <img src="img/menu-close.svg" alt="Close Menu" class="menu-icon">
+      <nav role="navigation" class="navigation" id="menu" aria-label="menu">
+        <a class="navigation__menu-icon-link" href="#" aria-label="Close menu">
+          <img src="img/menu-close.svg" alt="Close Menu" class="navigation__menu-icon">
           <span class="sr-only">Close menu</span>
         </a>
-        <a href="index.html" aria-current="page" class="nav-link w-nav-link {% if page.name == 'index.html' %} w--current {% endif %}">What</a>
-        <a href="why.html" class="nav-link w-nav-link {% if page.name == 'why.md' %} w--current {% endif %}">Why</a>
-        <a href="faq.html" class="nav-link w-nav-link {% if page.name == 'faq.md' %} w--current {% endif %}">FAQ</a>
-        <a href="vs-ms.html" class="nav-link w-nav-link {% if page.name == 'vs-ms.md' %} w--current {% endif %}">SCS vs. Microservice</a>
-        <a href="links.html" class="nav-link w-nav-link {% if page.name == 'links.md' %} w--current {% endif %}">Links</a>
-        <div class="nav-button">
-          <a href="https://github.com/innoq/SCS" class="nav-button-view w-button">Get it on Github</a>
+        <div class="navigation__items">
+          <a href="index.html" aria-current="page" class="navigation__link {% if page.name == 'index.html' %} navigation__link-selected {% endif %}">What</a>
+          <a href="why.html" class="navigation__link {% if page.name == 'why.md' %} navigation__link-selected {% endif %}">Why</a>
+          <a href="faq.html" class="navigation__link {% if page.name == 'faq.md' %} navigation__link-selected {% endif %}">FAQ</a>
+          <a href="vs-ms.html" class="navigation__link {% if page.name == 'vs-ms.md' %} navigation__link-selected {% endif %}">SCS vs. Microservice</a>
+          <a href="links.html" class="navigation__link {% if page.name == 'links.md' %} navigation__link-selected {% endif %}">Links</a>
+          <div class="navigation__button">
+            <a href="https://github.com/innoq/SCS" class="navigation__button-link">Get it on Github</a>
+          </div>
         </div>
       </nav>
-      <a class="menu-icon-link" href="#menu" aria-label="Open menu">
-        <img src="img/menu-burger.svg" alt="Open Menu" class="menu-icon">
+      <a class="navigation__menu-icon-link" href="#menu" aria-label="Open menu">
+        <img src="img/menu-burger.svg" alt="Open Menu" class="navigation__menu-icon">
         <span class="sr-only">Open menu</span>
       </a>
     </div>
