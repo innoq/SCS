@@ -126,7 +126,7 @@
   }
 
   .navigation__menu-icon-link:hover {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0,0,0,0.2);
   }
 
   .navigation__link {

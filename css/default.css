@@ -93,13 +93,32 @@ section.container > h2 {
 }
 
 .to-top {
-  background-color: rgba(0,0,0,0.1);
   position: fixed;
   bottom: 1rem;
   right: 1rem;
   height: 2rem;
   text-align: center;
   z-index: 1003;
+}
+
+.to-top:hover {
+  background-color: rgba(0,0,0,0.2);
+}
+
+#jump-to-next-section {
+    display: none;
+}
+
+.jump-to-next-section {
+    transform: translateX(50%);
+    position: fixed;
+    bottom: 1rem;
+    right: 50%;
+    height: 2rem;
+}
+
+.jump-to-next-section:hover {
+    background-color: rgba(0,0,0,0.2);
 }
 
 @media screen and (max-width: 767px) {
