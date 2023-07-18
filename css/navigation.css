@@ -107,7 +107,8 @@
   .navigation__items {
       flex-direction: column;
       max-height: 100%;
-      overflow: scroll;
+      padding: 0;
+      overflow: auto;
   }
 
   .navigation__menu-icon {

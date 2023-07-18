@@ -92,6 +92,16 @@ section.container > h2 {
   background-color: rgba(0, 0, 0, 0);
 }
 
+.to-top {
+  background-color: rgba(0,0,0,0.1);
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  height: 2rem;
+  text-align: center;
+  z-index: 1003;
+}
+
 @media screen and (max-width: 767px) {
   .footer-container {
     padding-left: 20px;
