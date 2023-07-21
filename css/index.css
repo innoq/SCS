@@ -36,7 +36,7 @@
 .page-cover-container img {
   align-self: flex-start;
   height: auto;
-  width: 30%;
+  max-width: 50%;
 }
 
 @media screen and (min-width: 768px) {
@@ -107,7 +107,7 @@
 .container-with-the-idea {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 4rem;
   justify-content: center;
   align-items: center;
 }
@@ -116,7 +116,7 @@
   display: grid;
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: 1fr;
-  gap: 2rem;
+  gap: 4rem;
 }
 
 .idea div {
@@ -134,15 +134,16 @@
 }
 
 .idea__img-container.idea__img--large img{
-  max-width:19rem;
-  max-height: none;
+    width: 30rem;
+    max-width: none;
+    max-height: none;
 }
 
 .idea img {
   object-fit: contain;
   width: 100%;
-  max-width: 12rem;
-  max-height: 15rem;
+  max-width: 20rem;
+  max-height: 20rem;
 }
 
 .idea-text {
@@ -153,7 +154,7 @@
 
 @media screen and (min-width: 768px) {
   .container-with-the-idea {
-    gap: 3rem;
+    gap: 5rem;
   }
 
   .idea {
@@ -173,7 +174,7 @@
 
 @media screen and (min-width: 1024px) {
   .idea img {
-    max-width: 17rem;
+    max-width: 20rem;
   }
 
   .idea__img-container {
@@ -181,7 +182,9 @@
   }
 
   .idea__img-container.idea__img--large img{
-    max-width:24rem;
+    width: 30rem;
+    max-width: none;
+    max-height: none;
   }
 
   .idea-text {
