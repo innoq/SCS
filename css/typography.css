@@ -2,7 +2,7 @@ h1 {
     color: var(--color-headings);
     margin-top: 20px;
     margin-bottom: 10px;
-    font-family: Fontfont mark pro, sans-serif;
+    font-family: FFMarkWebPro, sans-serif;
     font-size: 4rem;
     font-weight: 900;
     line-height: 4rem;
@@ -12,7 +12,7 @@ h2 {
     color: var(--color-headings);
     margin-top: 20px;
     margin-bottom: 10px;
-    font-family: Fontfont mark pro, sans-serif;
+    font-family: FFMarkWebPro, sans-serif;
     font-size: 2.5rem;
     font-weight: 900;
     line-height: 2.5rem;
@@ -22,9 +22,9 @@ h3 {
     color: var(--color-headings);
     margin-top: 20px;
     margin-bottom: 10px;
-    font-family: Fontfont mark pro, sans-serif;
+    font-family: FFMarkWebPro, sans-serif;
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: bold;
     line-height: 1.5rem;
 }
 
@@ -32,9 +32,9 @@ h4 {
     color: var(--color-headings);
     margin-top: 10px;
     margin-bottom: 20px;
-    font-family: Fontfont mark pro, sans-serif;
+    font-family: FFMarkWebPro, sans-serif;
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: bold;
     line-height: 2rem;
 }
 
@@ -42,16 +42,16 @@ h5 {
     color: var(--color-headings);
     margin-top: 10px;
     margin-bottom: 10px;
-    font-family: Fontfont mark pro, sans-serif;
+    font-family: FFMarkWebPro, sans-serif;
     font-size: 1.125rem;
-    font-weight: 700;
+    font-weight: bold;
     line-height: 1.75rem;
 }
 
 p {
     color: var(--color-headings);
     margin-bottom: 1.75rem;
-    font-family: Fontfont mark pro book, sans-serif;
+    font-family: FFMarkWebPro, sans-serif;
     font-size: 1.125rem;
     line-height: 1.75rem;
 }
@@ -63,7 +63,7 @@ a {
     padding-bottom: 0;
     padding-left: 0;
     padding-right: 0;
-    font-family: Fontfont mark pro book, sans-serif;
+    font-family: FFMarkWebPro, sans-serif;
     font-size: 1.125rem;
     line-height: 1.75rem;
     text-decoration: underline;
@@ -79,9 +79,9 @@ ul {
     margin-top: 0;
     margin-bottom: 20px;
     padding-left: 20px;
-    font-family: Fontfont mark pro book, sans-serif;
+    font-family: FFMarkWebPro, sans-serif;
     font-size: 1.125rem;
-    line-height: 1.75rem;
+    line-height: 1rem;
 }
 
 ol {
@@ -92,47 +92,69 @@ ol {
 
 li {
     color: var(--color-headings);
-    font-family: Fontfont mark pro book, sans-serif;
+    font-family: FFMarkWebPro, sans-serif;
     font-size: 1.125rem;
     line-height: 1.75rem;
 }
 
 @font-face {
-    font-family: 'Hack';
-    src: url('../fonts/Hack-Regular.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-    font-display: auto;
+  font-display: swap;
+  font-family: FreightTextPro;
+  font-style: normal;
+  font-weight: bold;
+  src: url('https://assets.innoq.com/fonts/350ED6_0_unhinted_0.woff2?cachebuster=#{$cachebuster}') format('woff2');
 }
 
 @font-face {
-    font-family: 'Garagefonts freighttext pro book';
-    src: url('../fonts/GarageFonts---FreightText-Pro-Book-Italic.otf') format('opentype');
-    font-weight: 400;
-    font-style: italic;
-    font-display: auto;
+  font-display: swap;
+  font-family: FreightTextPro;
+  font-style: italic;
+  font-weight: normal;
+  src: url('https://assets.innoq.com/fonts/350ED6_1_unhinted_0.woff2?cachebuster=#{$cachebuster}') format('woff2');
 }
 
 @font-face {
-    font-family: 'Fontfont mark pro';
-    src: url('../fonts/FontFont---Mark-Pro-Bold.otf') format('opentype');
-    font-weight: 700;
-    font-style: normal;
-    font-display: auto;
+  font-display: swap;
+  font-family: FreightTextPro;
+  font-style: normal;
+  font-weight: normal;
+  src: url('https://assets.innoq.com/fonts/350ED6_2_unhinted_0.woff2?cachebuster=#{$cachebuster}') format('woff2');
 }
 
 @font-face {
-    font-family: 'Fontfont mark pro';
-    src: url('../fonts/FontFont---Mark-Pro-Heavy.otf') format('opentype');
-    font-weight: 900;
-    font-style: normal;
-    font-display: auto;
+  font-display: swap;
+  font-family: FreightTextPro;
+  font-style: italic;
+  font-weight: bold;
+  src: url('https://assets.innoq.com/fonts/350ED6_3_unhinted_0.woff2?cachebuster=#{$cachebuster}') format('woff2');
 }
 
 @font-face {
-    font-family: 'Fontfont mark pro book';
-    src: url('../fonts/FontFont---Mark-Pro-Book.otf') format('opentype');
-    font-weight: 400;
-    font-style: normal;
-    font-display: auto;
+  font-display: swap;
+  font-family: FFMarkWebPro;
+  font-style: normal;
+  font-weight: normal;
+  src: url('https://assets.innoq.com/fonts/MarkPro-Book.woff2?cachebuster=#{$cachebuster}') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: FFMarkWebPro;
+  font-style: normal;
+  font-weight: bold;
+  src: url('https://assets.innoq.com/fonts/MarkPro-Bold.woff2?cachebuster=#{$cachebuster}') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: FFMarkWebPro;
+  font-style: normal;
+  font-weight: 900;
+  src: url('https://assets.innoq.com/fonts/MarkPro-Heavy.woff2?cachebuster=#{$cachebuster}') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Hack;
+  src: url('https://assets.innoq.com/fonts/hack-regular.woff2?cachebuster=#{$cachebuster}') format('woff2');
 }

@@ -22,14 +22,21 @@
   justify-content: center;
 }
 
+.page-cover-content h2 {
+  font-weight: normal;
+}
+
+.page-cover-content .logo-small {
+  max-width: 4rem;
+}
+
 .page-cover-container h1 {
   font-size: 3rem;
-  font-weight: 400;
+  font-weight: 900;
 }
 
 .page-cover-container h2 {
   font-size: 2rem;
-  font-weight: 200;
   line-height: 2.4rem;
 }
 
@@ -148,6 +155,7 @@
 
 .idea-text {
   font-size: 1.5rem;
+  line-height: 1.25;
   align-self: center;
   margin: 2rem;
 }

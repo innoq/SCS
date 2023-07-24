@@ -30,7 +30,7 @@
   color: var(--color-primary);
   background-color: rgba(0, 0, 0, 0);
   border: 3px solid var(--color-primary);
-  font-family: Fontfont mark pro, sans-serif;
+  font-family: FFMarkWebPro, sans-serif;
   font-size: 1rem;
   display: inline-block;
   padding: 9px 15px;
@@ -49,8 +49,9 @@
   color: var(--color-primary);
   padding-left: 0;
   padding-right: 0;
-  font-family: Fontfont mark pro, sans-serif;
+  font-family: FFMarkWebPro, sans-serif;
   font-size: 1rem;
+  font-weight: bold;
   display: inline-block;
   flex: none;
   text-decoration: none;

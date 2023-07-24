@@ -6,7 +6,7 @@ html {
 
 body {
   color: var(--color-text);
-  font-family: Fontfont mark pro book, sans-serif;
+  font-family: FFMarkWebPro, sans-serif;
   padding: 0;
   margin: 0;
   line-height: 20px;
@@ -21,7 +21,6 @@ body {
 
 section.container > h2 {
   font-size: 2.5rem;
-  font-weight: 400;
   margin-bottom: 4rem;
 }
 
@@ -68,7 +67,7 @@ section.container > h2 {
 
 .footer-heading {
   color: var(--color-primary);
-  font-family: Fontfont mark pro book, sans-serif;
+  font-family: FFMarkWebPro, sans-serif;
   font-size: 1.25rem;
   line-height: 2rem;
 }
