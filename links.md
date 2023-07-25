@@ -1,6 +1,6 @@
 ---
 layout: default
-title: SCS - Self-Contained Systems - Links
+title: Links – Self-contained Systems (SCS)
 description: Links to further information about SCS (Self-contained Systems)
 ---
 
@@ -17,7 +17,7 @@ Links
  mentions SCS on slide 28ff
 * [ROCA](https://roca-style.org/) a style for web applications that
 fits SCS.
-* [Article on InfoQ](https://www.infoq.com/articles/scs-microservices-done-right)
+* [Self Contained Systems (SCS): Microservices Done Right](https://www.infoq.com/articles/scs-microservices-done-right)
 * Article about transclusion for SCS frontend integration
   [English](https://www.innoq.com/en/blog/transclusion/) /
   [German](https://www.innoq.com/en/blog/transklusion/)
@@ -33,7 +33,7 @@ fits SCS.
   at GALERIA Kaufhof Technology Blog, German
 * [The rocky road from Monolith to Microservices](https://kuehne-nagel.github.io/monolith-to-microservices) by [Björn Kimminich](https://github.com/bkimminich) about desiccation of an enterprise scale monolith at Kuehne + Nagel - mentions SCS on [slide 28](https://kuehne-nagel.github.io/monolith-to-microservices/#/28)ff
 * [Blog Post "Carving the Java EE Monolith Into Microservices: Prefer Verticals Not Layers" with reference to SCS](https://blog.christianposta.com/microservices/carving-the-java-ee-monolith-into-microservices-perfer-verticals-not-layers/)
-* [Article at InfoQ](https://www.infoq.com/articles/microservices-real-world)
+* [Microservices in the Real World](https://www.infoq.com/articles/microservices-real-world)
 * [Self-Contained Systems - Microservices for Dummies](https://dejanglozic.com/2016/01/04/self-contained-systems-microservices-for-dummies/)
   at the blog of Dejan Glozic
 * [Content tagged with SCS](https://www.innoq.com/en/topics/scs/) at the INNOQ blog
