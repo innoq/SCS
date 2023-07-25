@@ -114,7 +114,7 @@
 .container-with-the-idea {
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  gap: 2rem;
   justify-content: center;
   align-items: center;
 }
@@ -123,7 +123,6 @@
   display: grid;
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: 1fr;
-  gap: 4rem;
 }
 
 .idea div {
@@ -145,14 +144,14 @@
   object-fit: contain;
   width: 100%;
   max-width: 20rem;
-  max-height: 20rem;
+  max-height: 15rem;
 }
 
 .idea-text {
   font-size: 1.5rem;
   line-height: 1.25;
   align-self: center;
-  margin: 2rem;
+  margin: 0 2rem 2rem 2rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -176,15 +175,24 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .idea {
+    gap: 4rem;
+  }
+
   .idea img {
     max-width: 20rem;
+    max-height: 20rem;
+  }
+
+  .idea-text {
+    margin: 2rem;
   }
 
   .idea__img-container {
     height: 25rem;
   }
 
-  .idea__img-container.idea__img--large img{
+  .idea__img-container.idea__img--large img {
     width: 30rem;
     max-width: none;
     max-height: none;
