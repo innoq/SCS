@@ -48,6 +48,7 @@ section.container > h2 {
   background-color: var(--color-secondary);
   padding-top: 60px;
   padding-bottom: 60px;
+  margin-top: 60px;
 }
 
 .text-center {
@@ -105,21 +106,6 @@ section.container > h2 {
   background-color: rgba(0,0,0,0.2);
 }
 
-#jump-to-next-section {
-    display: none;
-}
-
-.jump-to-next-section {
-    transform: translateX(50%);
-    position: fixed;
-    bottom: 1rem;
-    right: 50%;
-    height: 2rem;
-}
-
-.jump-to-next-section:hover {
-    background-color: rgba(0,0,0,0.2);
-}
 
 @media screen and (max-width: 767px) {
   .footer-container {

@@ -42,6 +42,7 @@
           <a href="faq.html" class="navigation__link {% if page.name == 'faq.md' %} navigation__link-selected {% endif %}">FAQ</a>
           <a href="vs-ms.html" class="navigation__link {% if page.name == 'vs-ms.md' %} navigation__link-selected {% endif %}">SCS vs. Microservice</a>
           <a href="links.html" class="navigation__link {% if page.name == 'links.md' %} navigation__link-selected {% endif %}">Links</a>
+          <a href="case-studies.html" class="navigation__link {% if page.name == 'case-studies.md' %} navigation__link-selected {% endif %}">Case Studies</a>
           <div class="navigation__button">
             <a href="https://github.com/innoq/SCS" class="navigation__button-link">Contribute on GitHub</a>
           </div>
@@ -59,14 +60,6 @@
     {% else %}
       {{ content }}
     {% endif %}
-    <a href="#" id="to-top">
-      <img src="img/chevron-up.svg" alt="Scroll to top" class="to-top">
-      <span class="sr-only">Scroll to top</span>
-    </a>
-    <a href="#" id="jump-to-next-section">
-      <img src="img/chevron-down.svg" alt="Scroll to next section" class="jump-to-next-section">
-      <span class="sr-only">Scroll to next section</span>
-    </a>
   </main>
   <footer class="footer">
     <div class="container footer-container">
@@ -80,7 +73,5 @@
       </p>
     </div>
   </footer>
-  <script src="../js/scroll.js"></script>
 </body>
-
 </html>

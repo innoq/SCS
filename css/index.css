@@ -5,8 +5,8 @@
 .page-cover {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  min-height: 100vh;
+  justify-content: space-evenly;
+  min-height: 75vh;
   background-color: var(--color-bg);
 }
 
