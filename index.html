@@ -19,7 +19,7 @@ description: Self-contained Systems (SCS) is a software architecture focused on 
 	<h2 class="text-centered">Characteristics</h2>
 	<div class="container-with-tiles">
 		<div class="tile">
-			<div class="tile__img-container"><img src="img/scs-single-slice.svg" alt="autonomous" class="benefit-image-customizable"></div>
+			<div class="tile__img-container"><img src="img/characteristics-autonomous.svg" alt="autonomous" class="benefit-image-customizable"></div>
 			<div class="tile__heading">
 				<h3 class="tile__heading-text">Autonomous</h3>
 				<a id="autonomous" class="tile__heading-anchor">
@@ -29,7 +29,7 @@ description: Self-contained Systems (SCS) is a software architecture focused on 
 			<p class="text-center">Each SCS is an autonomous web application. For the SCS’s domain, all data, the logic to process that data and all code to render the web interface is contained within the SCS. An SCS can fulfill its primary use cases on its own, without having to rely on other systems being available.</p>
 		</div>
 		<div class="tile">
-			<div class="tile__img-container"><img src="img/scs-own-team.svg" alt="scs own team" class="benefit-image-customizable"></div>
+			<div class="tile__img-container"><img src="img/characteristics-one-team.svg" alt="scs own team" class="benefit-image-customizable"></div>
 			<div class="tile__heading">
 				<h3 class="tile__heading-text">One Team</h3>
 				<a id="one-team" class="tile__heading-anchor">
@@ -39,7 +39,7 @@ description: Self-contained Systems (SCS) is a software architecture focused on 
 			<p class="text-center">Each SCS is owned by one team. This does not necessarily mean that only one team can change the code, but the owning team has the final say on what goes into the code base, for example by merging pull-requests.</p>
 		</div>
 		<div class="tile">
-			<div class="tile__img-container"><img src="img/scs-asynchronous-api-calls.svg" alt="asynchronous dependencies" class="benefit-image-customizable"></div>
+			<div class="tile__img-container"><img src="img/characteristics-asynchronous-dependencies.svg" alt="asynchronous dependencies" class="benefit-image-customizable"></div>
 			<div class="tile__heading">
 				<h3 class="tile__heading-text">Asynchronous Dependencies</h3>
 				<a id="asynchronous-dependencies" class="tile__heading-anchor">
@@ -49,7 +49,7 @@ description: Self-contained Systems (SCS) is a software architecture focused on 
 			<p class="text-center">Communication with other SCSs or 3rd party systems is asynchronous wherever possible. Specifically, other SCSs or external systems should not be accessed synchronously within the SCS's own request/response cycle. This decouples the systems, reduces the effects of failure, and thus supports autonomy. The goal is decoupling concerning time: An SCS should work even if other SCSs are temporarily offline. This can be achieved even if the communication on the technical level is synchronous, e.g. by replicating data or buffering requests.</p>
 		</div>
 		<div class="tile">
-			<div class="tile__img-container"><img src="img/scs-optional-api.svg" alt="service api optional" class="benefit-image-customizable"></div>
+			<div class="tile__img-container"><img src="img/charactersitics-service-api-is-optional.svg" alt="service api optional" class="benefit-image-customizable"></div>
 			<div class="tile__heading">
 				<h3 class="tile__heading-text">Service API is Optional</h3>
 				<a id="service-api-is-optional" class="tile__heading-anchor">
@@ -59,7 +59,7 @@ description: Self-contained Systems (SCS) is a software architecture focused on 
 			<p class="text-center">An SCS can have an optional service API. Because the SCS has its own web UI, it can interact with the user — without going through a UI service. However, an API for mobile clients or for other SCSs might still be useful.</p>
 		</div>
 		<div class="tile">
-			<div class="tile__img-container"><img src="img/scs-own-ui-bl-db.svg" alt="own data and business logic" class="benefit-image-customizable"></div>
+			<div class="tile__img-container"><img src="img/charactersistics-own-data-and-logic.svg" alt="own data and business logic" class="benefit-image-customizable"></div>
 			<div class="tile__heading">
 				<h3 class="tile__heading-text">Own Data & Logic</h3>
 				<a id="own-data-and-logic" class="tile__heading-anchor">
@@ -69,7 +69,7 @@ description: Self-contained Systems (SCS) is a software architecture focused on 
 			<p class="text-center">Each SCS must include data and logic. To really implement any meaningful features both are needed. An SCS should implement features by itself and must therefore include both.</p>
 		</div>
 		<div class="tile">
-			<div class="tile__img-container"><img src="img/scs-ui.svg" alt="own ui" class="benefit-image-customizable"></div>
+			<div class="tile__img-container"><img src="img/characteristics-own-ui.svg" alt="own ui" class="benefit-image-customizable"></div>
 			<div class="tile__heading">
 				<h3 class="tile__heading-text">Own UI</h3>
 				<a id="own-ui" class="tile__heading-anchor">
@@ -79,7 +79,7 @@ description: Self-contained Systems (SCS) is a software architecture focused on 
 			<p class="text-center">An SCS should make its features usable to end-users via its own UI. Therefore the SCS should have no shared UI with other SCSs. SCSs might still have links to each other. However, asynchronous integration means that the SCS should still work even if the UI of another SCS is not available.</p>
 		</div>
 		<div class="tile">
-			<div class="tile__img-container"><img src="img/scs-autonomous-business-layer.svg" alt="no shared business logic" class="benefit-image-customizable"></div>
+			<div class="tile__img-container"><img src="img/characteristics-no-shared-business-logic.svg" alt="no shared business logic" class="benefit-image-customizable"></div>
 			<div class="tile__heading">
 				<h3 class="tile__heading-text">No Shared Business Logic</h3>
 				<a id="no-shared-business-logic" class="tile__heading-anchor">
@@ -89,7 +89,7 @@ description: Self-contained Systems (SCS) is a software architecture focused on 
 			<p class="text-center">To avoid tight coupling an SCS should share no business code with other SCSs. It might be fine to create a pull-request for an SCS or use common libraries, e.g. database drivers or oAuth clients.</p>
 		</div>
 		<div class="tile">
-			<div class="tile__img-container"><img src="img/scs-hardly-synchronous-calls.svg" alt="hardly shared infrastructure" class="benefit-image-customizable"></div>
+			<div class="tile__img-container"><img src="img/characteristics-hardly-shared-infrastructure.svg" alt="hardly shared infrastructure" class="benefit-image-customizable"></div>
 			<div class="tile__heading">
 				<h3 class="tile__heading-text">Hardly Shared Infrastructure</h3>
 				<a id="hardly-shared-infrastructure" class="tile__heading-anchor">
