@@ -1,0 +1,17 @@
+---
+layout: default
+title: Self-contained Systems (SCS) Case Studies
+description: A collection of Self-contained Systems (SCS) case studies, showcasing real-world applications and success stories. Learn how SCS simplifies complexity, enhances scalability, and enables independent teams in diverse business scenarios.
+og_image: og-case-studies.jpeg
+---
+
+Case Studies
+---
+
+A collection of Self-contained Systems (SCS) case studies, showcasing real-world applications and success stories. Learn how SCS simplifies complexity, enhances scalability, and enables independent teams in diverse business scenarios. [Contribute yours!](https://github.com/innoq/SCS)
+
+### INNOQ
+
+- [Creating a “Best in Industry” E-Commerce platform with Self-contained Systems](https://www.innoq.com/en/cases/best-in-industry-e-commerce-plattform-fuer-elektronikkomponenten/)
+- [SACAC optimizes the quotation process with a customized software solution](https://www.innoq.com/en/cases/sacac-spezialloesung-zur-angebotserstellung/)
+- [Breuninger increases time-to-market through verticalization and self-contained systems](https://www.innoq.com/en/cases/ecommerce-breuninger/)
