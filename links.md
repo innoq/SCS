@@ -2,6 +2,7 @@
 layout: default
 title: Links – Self-contained Systems (SCS)
 description: Links to further information about SCS (Self-contained Systems)
+og_image: og-links.jpeg
 ---
 
 Links

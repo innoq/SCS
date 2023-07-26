@@ -2,6 +2,7 @@
 layout: default
 title: "SCS - Self-Contained Systems - FAQ"
 description: Frequently asked questions (FAQ) about Self-contained Systems (SCS)
+og_image: og-faq.jpeg
 ---
 
 Frequently Asked Questions
