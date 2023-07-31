@@ -1,0 +1,139 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--color-text);
+  font-family: FFMarkWebPro, sans-serif;
+  padding: 0;
+  margin: 0;
+  line-height: 20px;
+}
+
+.container {
+  padding: 0 var(--content-minimum-side-spacing);
+  max-width: var(--content-max-width);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section.container > h2 {
+  font-size: 2.5rem;
+  margin-bottom: 4rem;
+}
+
+.container-spacing {
+  margin-top: 5rem;
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    padding: 0;
+  }
+}
+
+.offset-top {
+  margin-top: 8rem;
+}
+
+@media screen and (min-width: 768px) {
+  section.container > h2 {
+    font-size: 4rem;
+  }
+}
+
+.footer {
+  background-color: var(--color-secondary);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-top: 60px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.characteristic-heading {
+  text-align: center;
+}
+
+.characteristic-image {
+  height: 320px;
+  justify-content: center;
+  margin-bottom: 0;
+  display: flex;
+}
+
+.footer-heading {
+  color: var(--color-primary);
+  font-family: FFMarkWebPro, sans-serif;
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+.footer-text {
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+}
+
+.link-footer {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.link-footer:hover {
+  color: var(--color-primary);
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.to-top {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  height: 2rem;
+  text-align: center;
+  z-index: 1003;
+}
+
+.to-top:hover {
+  background-color: rgba(0,0,0,0.2);
+}
+
+
+@media screen and (max-width: 767px) {
+  .footer-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .footer-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .footer-heading {
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
+}
+
+/* Screen reader only */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}

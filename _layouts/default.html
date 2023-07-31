@@ -1,75 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>{{ page.title }}</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{{page.description}}">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/scs.css">
-    <link rel="stylesheet" href="css/slider.css">
-    <link rel="icon" type="image/svg+xml" href="./img/favicon.svg" sizes="any">
-    <script defer data-domain="scs-architecture.org" src="https://plausible.io/js/script.outbound-links.js"></script>
-    <script type="module" src="js/custom-elements.js"></script>
-  </head>
-  <body>
-    <a href="https://github.com/innoq/SCS" class="github-corner" aria-label="View source on Github"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+
+<head>
+  <title>{{ page.title }}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{page.description}}">
+  <meta property="og:image" content="https://scs-architecture.org/img/{{page.og_image}}" />
+  <meta property="og:title" content="{{page.title}}" />
+  <meta property="og:description" content="{{page.description}}" />
+  <meta property="og:image:width" content="4000" />
+  <meta property="og:image:height" content="2000" />
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://scs-architecture.org/img/{{page.og_image}}">
+  <meta name="twitter:title" content="{{page.title}}">
+  <meta name="twitter:description" content="{{page.description}}">
+  <link rel="stylesheet" href="css/vars.css">
+  <link rel="stylesheet" href="css/typography.css">
+  <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/navigation.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <script defer data-domain="scs-architecture.org" src="https://plausible.io/js/script.outbound-links.js"></script>
+</head>
+
+<body>
+  <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease"
+    role="banner" class="topbar">
     <div class="container">
-      <div class="row">
-        <div class="twelve columns">
-
-          <header class="main">
-            <h1 class="head u-cf">
-              <a href="index.html">
-                <img class="logo" src="./img/system-of-systems-scs.png" width="150px" alt="SCS Logo">
-                <span class="lead" style="display:block;">Self-Contained Systems</span>
-              </a>
-            </h1>
-            <p class="subhead">Assembling Software from Independent Systems</p>
-          </header>
-
-          <nav class="subnav">
-            <ul class="nav">
-              <li role="presentation"><a href="index.html">Home</a></li>
-              <li role="presentation"><a href="why.html">Why?</a></li>
-              <li role="presentation"><a href="faq.html">FAQ</a></li>
-              <li role="presentation"><a href="vs-ms.html">vs. Microservice</a></li>
-              <li role="presentation"><a href="links.html">Links</a></li>
-              <li role="presentation"><a href="discussion.html">Discussion</a></li>
-              <li role="presentation"><a href="https://www.innoq.com/en/datenschutz">Privacy</a></li>
-            </ul>
-          </nav>
-
-          {{ content }}
-
-          <footer>
-            <div class="row">
-              <div class="license-icons two columns">
-                <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">
-                  <img alt="Creative Commons License CC" width="20px" src="./img/cc.png"/>
-                  <img alt="Creative Commons License BY" width="20px" src="./img/by.png"/>
-                  <img alt="Creative Commons License SA" width="20px" src="./img/sa.png"/>
-                </a>
-              </div>
-              <p class="license-text ten columns">
-                <strong xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">SCS</strong> is licensed under a
-                <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
-              </p>
-            </div>
-            <div class="row">
-              <div class="license-icons two columns">
-                <a rel="sponsor" href="https://www.innoq.com/">
-                  <img alt="INNOQ" width="60" src="./img/innoq-logo--petrolapricot.svg"/>
-                </a>
-              </div>
-              <p class="license-text ten columns">
-                This website is supported by <a rel="sponsor" href="https://www.innoq.com/">INNOQ</a>.
-              </p>
-            </div>
-          </footer>
-
+      <nav role="navigation" class="navigation" id="menu" aria-label="menu">
+        <a class="navigation__menu-icon-link" href="#" aria-label="Close menu">
+          <img src="img/menu-close.svg" alt="Close Menu" class="navigation__menu-icon">
+          <span class="sr-only">Close menu</span>
+        </a>
+        <div class="navigation__items">
+          <a href="index.html" aria-current="page" class="navigation__link {% if page.name == 'index.html' %} navigation__link-selected {% endif %}">What</a>
+          <a href="why.html" class="navigation__link {% if page.name == 'why.md' %} navigation__link-selected {% endif %}">Why</a>
+          <a href="faq.html" class="navigation__link {% if page.name == 'faq.md' %} navigation__link-selected {% endif %}">FAQ</a>
+          <a href="vs-ms.html" class="navigation__link {% if page.name == 'vs-ms.md' %} navigation__link-selected {% endif %}">SCS vs. Microservice</a>
+          <a href="links.html" class="navigation__link {% if page.name == 'links.md' %} navigation__link-selected {% endif %}">Links</a>
+          <a href="case-studies.html" class="navigation__link {% if page.name == 'case-studies.md' %} navigation__link-selected {% endif %}">Case Studies</a>
+          <div class="navigation__button">
+            <a href="https://github.com/innoq/SCS" class="navigation__button-link">Contribute on GitHub</a>
+          </div>
         </div>
-      </div>
+      </nav>
+      <a class="navigation__menu-icon-link" href="#menu" aria-label="Open menu">
+        <img src="img/menu-burger.svg" alt="Open Menu" class="navigation__menu-icon">
+        <span class="sr-only">Open menu</span>
+      </a>
     </div>
-  </body>
+  </div>
+  <main>
+    {% if page.name != 'index.html' %}
+      <section class="container offset-top">{{ content }}</section>
+    {% else %}
+      {{ content }}
+    {% endif %}
+  </main>
+  <footer class="footer">
+    <div class="container footer-container">
+      <a href="https://www.innoq.com/" target="_blank" class="link-footer">
+        <img src="img/INNOQ_Logo.svg" alt="INNOQ" class="footer-logo"></img>
+      </a>
+      <h4 class="footer-heading">We give technology a purpose. We future-proof your ideas.</h4>
+      <p class="footer-text">Honest consulting, innovative thinking, and a passion for software development means: We deliver successful software solutions, infrastructure, and business models.<br><br>
+        <a href="https://www.innoq.com" target="_blank" class="link-footer">Visit our website</a><br>
+        <a href="https://www.innoq.com/privacy" target="_blank" class="link-footer">Privacy</a>
+      </p>
+    </div>
+  </footer>
+</body>
 </html>

@@ -2,6 +2,7 @@
 layout: default
 title: "SCS - Self-Contained Systems - FAQ"
 description: Frequently asked questions (FAQ) about Self-contained Systems (SCS)
+og_image: og-faq.jpeg
 ---
 
 Frequently Asked Questions
@@ -126,6 +127,4 @@ can find the repository on [GitHub](https://github.com/innoq/SCS).
 
 ### Can I provide feedback?
 
-Of course, please use [the comments](discussion.html) to
-share your thoughts. We welcome criticism as well as suggestions for
-improvement.
+Of course, please join us on [GitHub](https://github.com/innoq/SCS/issues).

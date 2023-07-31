@@ -1,0 +1,138 @@
+.topbar {
+  background-color: var(--color-bg);
+  position: fixed;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: 0%;
+}
+
+.navigation__menu-icon {
+  display: none;
+}
+
+.navigation {
+  display: flex;
+  width: 100%;
+}
+
+.navigation__items {
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.navigation__button-link {
+  float: none;
+  color: var(--color-primary);
+  background-color: rgba(0, 0, 0, 0);
+  border: 3px solid var(--color-primary);
+  font-family: FFMarkWebPro, sans-serif;
+  font-size: 1rem;
+  display: inline-block;
+  padding: 9px 15px;
+  line-height: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navigation__button-link:hover {
+  color: var(--color-secondary);
+  background-color: rgba(0, 0, 0, 0);
+  border-color: var(--color-secondary);
+}
+
+.navigation__link {
+  color: var(--color-primary);
+  padding-left: 0;
+  padding-right: 0;
+  font-family: FFMarkWebPro, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  display: inline-block;
+  flex: none;
+  text-decoration: none;
+}
+
+.navigation__link-selected {
+  color: var(--color-primary);
+  border-bottom-width: 3px;
+  border-bottom-color: var(--color-primary);
+  border-radius: 0;
+  padding-bottom: 0;
+}
+
+.navigation__link:hover {
+  color: var(--color-secondary);
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom-color: var(--color-secondary);
+}
+
+@media screen and (min-width: 768px) {
+  .navigation__button {
+    width: 30%;
+    flex: 0 auto;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navigation {
+    float: left;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-100%);
+    transition: transform 0.2s ease;
+    gap: 1rem;
+  }
+
+  .navigation:target {
+    transform: translateY(0);
+  }
+
+  .navigation__items {
+      flex-direction: column;
+      max-height: 100%;
+      padding: 0;
+      overflow: auto;
+  }
+
+  .navigation__menu-icon {
+    display: inline;
+    height: 2rem;
+  }
+
+  .navigation__menu-icon-link {
+    position: fixed;
+    z-index: 99;
+    border: none;
+    cursor: pointer;
+    top: 1rem;
+    right: 1rem;
+  }
+
+  .navigation__menu-icon-link:hover {
+    background-color: rgba(0,0,0,0.2);
+  }
+
+  .navigation__link {
+    padding: 0;
+    margin: 2rem;
+  }
+}
+
