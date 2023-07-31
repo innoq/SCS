@@ -92,6 +92,10 @@
   align-items: center;
 }
 
+.tile__heading-anchor:target {
+  scroll-margin-top: 20em;
+}
+
 .tile__heading-text {
   margin: 0;
 }
