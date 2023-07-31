@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "SCS - Self-Contained Systems - FAQ"
+title: "FAQ – Self-contained Systems"
 description: Frequently asked questions (FAQ) about Self-contained Systems (SCS)
 og_image: og-faq.jpeg
 ---
@@ -10,7 +10,7 @@ Frequently Asked Questions
 
 ### Why the term "SCS"?
 
-"Self-Contained System" describes best what's at the core of the
+"Self-contained System" describes best what's at the core of the
 concept: Each system should work by itself. Together they form a
 "System of Systems". We also haven't seen the term used anywhere else, allowing
 us to capture it to mean one specific, hopefully well-defined thing.
