@@ -14,8 +14,8 @@ A collection of Self-contained Systems (SCS) case studies, showcasing real-world
 
 - [Creating an E-Commerce platform with Self-contained Systems for Phoenix Contact](https://www.innoq.com/en/cases/best-in-industry-e-commerce-plattform-fuer-elektronikkomponenten/)
 - [SACAC optimizes the quotation process with a customized software solution](https://www.innoq.com/en/cases/sacac-spezialloesung-zur-angebotserstellung/)
-- [Breuninger increases time-to-market through verticalization and self-contained systems](https://www.innoq.com/en/cases/ecommerce-breuninger/)
-- [The Thermomix as an online platform with up to 45 million accesses per day](https://www.innoq.com/en/cases/vorwerk-thermomix-digitalisierung-iot/)
+- [Breuninger increases time-to-market through verticalization and Self-contained Systems](https://www.innoq.com/en/cases/ecommerce-breuninger/)
+- [The Vorwerk Thermomix as an online platform with up to 45 million accesses per day](https://www.innoq.com/en/cases/vorwerk-thermomix-digitalisierung-iot/)
 
 ### Galeria Kaufhof
 
@@ -23,7 +23,7 @@ A collection of Self-contained Systems (SCS) case studies, showcasing real-world
 
 ### Kühne+Nagel
 
-- [Breaking Down a Monolithic Software: A Case for Microservices vs. Self-contained Systems (Kuehne + Nagel: SCS within the context of logistics)](https://www.elastic.io/integration-best-practices/breaking-down-monolith-microservices-and-self-contained-systems/)
+- [Breaking Down a Monolithic Software: A Case for Microservices vs. Self-contained Systems](https://www.elastic.io/integration-best-practices/breaking-down-monolith-microservices-and-self-contained-systems/) (SCS within the context of logistics)
 - Slide deck: [The rocky road from monolith to Microservices (SCS within the context of logistics)](https://kuehne-nagel.github.io/monolith-to-microservices/)
 
 ### Otto
