@@ -2,6 +2,7 @@
 layout: default
 title: Why Self-contained Systems (SCS)?
 description: Reasons to use the Self-contained Systems (SCS) software architecture
+og_image: og-why.jpeg
 ---
 
 Why SCS?

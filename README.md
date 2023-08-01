@@ -1,4 +1,4 @@
-# SCS: Self-Contained Systems
+# SCS: Self-contained Systems
 
 
 _Assembling Software from Independent Systems_

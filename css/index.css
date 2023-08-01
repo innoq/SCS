@@ -5,8 +5,8 @@
 .page-cover {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  min-height: 100vh;
+  justify-content: space-evenly;
+  min-height: 75vh;
   background-color: var(--color-highlight-bg);
 }
 
@@ -90,6 +90,10 @@
 .tile__heading-anchor {
   display: flex;
   align-items: center;
+}
+
+.tile__heading-anchor:target {
+  scroll-margin-top: 20em;
 }
 
 .tile__heading-text {

@@ -2,25 +2,26 @@
 layout: default
 title: Links – Self-contained Systems (SCS)
 description: Links to further information about SCS (Self-contained Systems)
+og_image: og-links.jpeg
 ---
 
 Links
 ---
 ### Introduction
-* Slide deck: [Self-Contained Systems](https://speakerdeck.com/rstrangh/self-contained-systems-1)
-* Slide deck: [Self-Contained Systems (German)](https://speakerdeck.com/rstrangh/self-contained-systems-german)
+* Slide deck: [Self-contained Systems](https://speakerdeck.com/rstrangh/self-contained-systems-1)
+* Slide deck: [Self-contained Systems (German)](https://speakerdeck.com/rstrangh/self-contained-systems-german)
 * Website: [Wikipedia](https://en.wikipedia.org/wiki/Self-contained_Systems)
 * Website: [X (Twitter)](https://twitter.com/scsarchitecture)
 
 ### Diving deeper
 * Article: [Self Contained Systems (SCS): Microservices Done Right](https://www.infoq.com/articles/scs-microservices-done-right)
 * Blog post: [Implementation Example](https://blog.codecentric.de/en/2015/01/self-contained-systems-roca-complete-example-using-spring-boot-thymeleaf-bootstrap/)
-* Blog post: [Self-Contained Systems - Microservices for Dummies](https://dejanglozic.com/2016/01/04/self-contained-systems-microservices-for-dummies/)
-* Blog post: [Self-Contained Systems in Practice with Vaadin and Feeds](https://phauer.com/2018/self-contained-systems-vaadin-feeds/)
+* Blog post: [Self-contained Systems - Microservices for Dummies](https://dejanglozic.com/2016/01/04/self-contained-systems-microservices-for-dummies/)
+* Blog post: [Self-contained Systems in Practice with Vaadin and Feeds](https://phauer.com/2018/self-contained-systems-vaadin-feeds/)
 * Blog post: [Transclusion for SCS frontend integration](https://www.innoq.com/en/blog/transclusion/)
 * Blog post: [Architecture principles (used to develop the Otto Shop)](https://www.otto.de/jobs/en/technology/techblog/blogpost/architecture-principles-2013-04-15.php)
 * Blog post: ["Carving the Java EE Monolith Into Microservices: Prefer Verticals Not Layers" (refers to SCS)](https://blog.christianposta.com/microservices/carving-the-java-ee-monolith-into-microservices-perfer-verticals-not-layers/)
-* Blog post: [elastic.io: Breaking Down a Monolithic Software: A Case for Microservices vs. Self-Contained Systems (Kuehne + Nagel: SCS within the context of logistics)](https://www.elastic.io/integration-best-practices/breaking-down-monolith-microservices-and-self-contained-systems/)
+* Blog post: [elastic.io: Breaking Down a Monolithic Software: A Case for Microservices vs. Self-contained Systems (Kuehne + Nagel: SCS within the context of logistics)](https://www.elastic.io/integration-best-practices/breaking-down-monolith-microservices-and-self-contained-systems/)
 * Interview: [Microservices in the Real World](https://www.infoq.com/articles/microservices-real-world/)
 * Slide deck: [Nano, Micro, Mini, oh my: Modularization for sustainable systems (alternative introduction into SCS), pp. 28](https://www.innoq.com/en/talks/2014/12/talk-microservices-modularization-softwarearchitecture-berlin/)
 * Slide deck: [FROM MONOLITH TO MICROSERVICES (Kuehne + Nagel: SCS within the context of logistics)](https://kuehne-nagel.github.io/monolith-to-microservices)
