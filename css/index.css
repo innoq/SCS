@@ -174,7 +174,6 @@
     gap: 2rem;
 	min-height: auto;
 	width: 100%;
-	/* background-color: var(--color-bg); */
   }
 
   .idea:nth-of-type(even) p {
