@@ -131,7 +131,7 @@
 }
 
 .idea:nth-of-type(even) {
-    background-color: var(--color-bg);
+  background-color: var(--color-bg);
 }
 
 .idea div {
@@ -172,8 +172,8 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     gap: 2rem;
-	min-height: auto;
-	width: 100%;
+    min-height: auto;
+    width: 100%;
   }
 
   .idea:nth-of-type(even) p {
