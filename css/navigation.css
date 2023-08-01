@@ -1,5 +1,5 @@
 .topbar {
-  background-color: var(--color-bg);
+  background-color: var(--color-highlight-bg);
   position: fixed;
   top: 0%;
   bottom: auto;
