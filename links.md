@@ -8,8 +8,8 @@ og_image: og-links.jpeg
 Links
 ---
 ### Introduction
-* Slide deck: [Self-contained Systems](https://speakerdeck.com/rstrangh/self-contained-systems-1)
-* Slide deck: [Self-contained Systems (German)](https://speakerdeck.com/rstrangh/self-contained-systems-german)
+* Slide deck: [Self-contained Systems](https://scs-architecture.org/slidedeck/en/scs-infodeck-english.pdf)
+* Slide deck: [Self-contained Systems (German)](https://scs-architecture.org/slidedeck/de/scs-infodeck-german.pdf)
 * Website: [Wikipedia](https://en.wikipedia.org/wiki/Self-contained_Systems)
 * Website: [X (Twitter)](https://twitter.com/scsarchitecture)
 
@@ -25,7 +25,7 @@ Links
 * Interview: [Microservices in the Real World](https://www.infoq.com/articles/microservices-real-world/)
 * Slide deck: [Nano, Micro, Mini, oh my: Modularization for sustainable systems (alternative introduction into SCS), pp. 28](https://www.innoq.com/en/talks/2014/12/talk-microservices-modularization-softwarearchitecture-berlin/)
 * Slide deck: [FROM MONOLITH TO MICROSERVICES (Kuehne + Nagel: SCS within the context of logistics)](https://kuehne-nagel.github.io/monolith-to-microservices)
-* Website: [Content tagged with SCS on innoq.com](https://www.innoq.com/en/topics/scs/)
+* Website: [Content tagged with SCS on innoq.com](https://www.innoq.com/en/topics/self-contained-systems/)
 * Video: [Building and Trusting a Cloud Bank - Starling Bank (conference talk: explains SCS; stressing the aspect of resilience: however, violating the SCS definition: there is no UI!)](https://www.infoq.com/presentations/starling-bank-resilience/)
 * Video: [Our journey to distributed architecture - scaling from monolith to SCS-Ancizar Arenas & Javi Serrano (conference talk: explains SCS partly)](https://youtu.be/HMatW0wSYR4?t=630)
 
