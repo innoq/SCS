@@ -7,7 +7,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   min-height: 75vh;
-  background-color: var(--color-bg);
+  background-color: var(--color-highlight-bg);
 }
 
 .page-cover-container {
@@ -74,7 +74,7 @@
 }
 
 .tile {
-  background-color: var(--color-bg);
+  background-color: var(--color-highlight-bg);
   padding: 5%;
 }
 
@@ -127,6 +127,15 @@
   display: grid;
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: 1fr;
+  background-color: transparent;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 90%;
+  min-height: 25rem;
+}
+
+.idea:nth-of-type(even) {
+  background-color: var(--color-highlight-bg);
 }
 
 .idea div {
@@ -167,6 +176,8 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     gap: 2rem;
+    min-height: auto;
+    width: 100%;
   }
 
   .idea:nth-of-type(even) p {
