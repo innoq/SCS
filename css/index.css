@@ -123,6 +123,15 @@
   display: grid;
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: 1fr;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 90%;
+  min-height: 25rem;
+}
+
+.idea:nth-of-type(even) {
+    background-color: var(--color-bg);
 }
 
 .idea div {
@@ -163,6 +172,9 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     gap: 2rem;
+	min-height: auto;
+	width: 100%;
+	/* background-color: var(--color-bg); */
   }
 
   .idea:nth-of-type(even) p {
@@ -193,7 +205,7 @@
   }
 
   .idea__img-container.idea__img--large img {
-    width: 30rem;
+    width: 28rem;
     max-width: none;
     max-height: none;
   }
