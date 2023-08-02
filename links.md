@@ -9,7 +9,7 @@ Links
 ---
 ### Introduction
 * Slide deck: [Self-contained Systems](https://scs-architecture.org/slidedeck/en/scs-infodeck-english.pdf)
-* Slide deck: [Self-contained Systems (German)](https://scs-architecture.org/slidedeck/de/scs-infodeck-german.pdf)
+* Slide deck: [Self-contained Systems (German)](https://scs-architecture.org/slidedeck/de/scs-infodeck-deutsch.pdf)
 * Website: [Wikipedia](https://en.wikipedia.org/wiki/Self-contained_Systems)
 * Website: [X (Twitter)](https://twitter.com/scsarchitecture)
 
