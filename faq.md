@@ -3,6 +3,7 @@ layout: default
 title: "FAQ – Self-contained Systems"
 description: Frequently asked questions (FAQ) about Self-contained Systems (SCS)
 og_image: og-faq.jpeg
+canonical_url: https://scs-architecture.org/faq.html
 ---
 
 Frequently Asked Questions

@@ -3,6 +3,7 @@ layout: default
 title: Case Studies – Self-contained Systems (SCS)
 description: A collection of Self-contained Systems (SCS) case studies, showcasing real-world applications and success stories. Learn how SCS simplifies complexity, enhances scalability, and enables independent teams in diverse business scenarios.
 og_image: og-case-studies.jpeg
+canonical_url: https://scs-architecture.org/case-studies.html
 ---
 
 Case Studies

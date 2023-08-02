@@ -3,6 +3,7 @@ layout: default
 title: Self-contained Systems (SCS) vs. Microservices
 description: Comparison of Microservices and Self-contained Systems (SCS)
 og_image: og-scs-vs-microservices.jpeg
+canonical_url: https://scs-architecture.org/vs-ms.html
 ---
 
 SCS vs. Microservices
