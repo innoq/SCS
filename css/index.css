@@ -7,6 +7,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   min-height: 75vh;
+  margin-top: 6rem;
   background-color: var(--color-highlight-bg);
 }
 
