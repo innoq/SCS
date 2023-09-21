@@ -29,6 +29,7 @@ Links
 * Website: [Content tagged with SCS on innoq.com](https://www.innoq.com/en/topics/self-contained-systems/)
 * Video: [Building and Trusting a Cloud Bank - Starling Bank (conference talk: explains SCS; stressing the aspect of resilience: however, violating the SCS definition: there is no UI!)](https://www.infoq.com/presentations/starling-bank-resilience/)
 * Video: [Our journey to distributed architecture - scaling from monolith to SCS-Ancizar Arenas & Javi Serrano (conference talk: explains SCS partly)](https://youtu.be/HMatW0wSYR4?t=630)
+* Video: [A Better Alternative to Plain Microservices (Self-Contained Systems)](https://www.youtube.com/watch?v=xkQ9VaNTwxM)
 
 ### Diving deeper (German sources)
 * Article: [Original German article (2011)](https://www.innoq.com/de/links/softwarearchitektur-im-grossen/)
