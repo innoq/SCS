@@ -79,13 +79,15 @@ client / SPA must be coordinated with the deployment of the
 SCS. Essentially, this approach violates
 [no shared UI](/index.html#no-shared-ui).
 
+### Does the user interface of an SCS has to follow ROCA Principles?
 We believe [ROCA](http://roca-style.org) is a good approach for web
 front ends for SCS because that approach makes it easy to combine UIs
 from several SCSs to one. You could also have one SPA per SCS, but
 this means switching from one SCS/SPA to another one loads another
 application and you cannot easily share parts of the SPA/SCS in other
 SPA/SCS. That said, we don't rule out SPAs as a useful approach for some
-of the SCSs.
+of the SCSs. However, even though we suggest to follow ROCA Principles,
+it is not mandatory to follow them to have an SCS system.
 
 ### Can SCSs share a database?
 
