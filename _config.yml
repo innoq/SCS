@@ -1,2 +1,6 @@
-safe:        true
-exclude:     ["vendor"]
+safe: true
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - server.sh
