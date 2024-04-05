@@ -1,6 +1,13 @@
-.DS_Store
+# Bundler
+.bundle/
+
+# Jekyll
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
 _site/
-/nbproject
-.bundle
-.idea
+vendor/
+
+# Mac
+.DS_Store
 
