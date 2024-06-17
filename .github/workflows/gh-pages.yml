@@ -24,7 +24,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4.1.6
       - name: Setup Ruby
-        uses: ruby/setup-ruby@v1.179.1
+        uses: ruby/setup-ruby@v1.180.0
         with:
           bundler-cache: true
       - name: Setup GitHub Pages
