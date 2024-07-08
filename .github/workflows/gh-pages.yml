@@ -22,20 +22,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4.1.7
+        uses: actions/checkout@v4
       - name: Setup Ruby
-        uses: ruby/setup-ruby@v1.183.0
+        uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
       - name: Setup GitHub Pages
         id: pages
-        uses: actions/configure-pages@v5.0.0
+        uses: actions/configure-pages@v5
       - name: Build Jekyll site
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
       - name: Upload GitHub Pages artifact
-        uses: actions/upload-pages-artifact@v3.0.1
+        uses: actions/upload-pages-artifact@v3
   deploy:
     environment:
       name: github-pages
@@ -45,4 +45,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4.0.5
+        uses: actions/deploy-pages@v4
