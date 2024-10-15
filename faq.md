@@ -69,7 +69,7 @@ The SCS approach focuses on Web UIs that are split across the SCSs. However, eac
 might also provide an API that can be accessed by a single mobile client
 or a monolithic single page app. If you do this, the functionality is split across
 the SCSs containing the logic and the mobile client or single page app
-containing the UI. That way a change cannot be confined to a SCS, but
+containing the UI. That way a change cannot be confined to an SCS, but
 would affect the SCS as well as the mobile clients and the single page
 app. This problem can be mitigated by modularizing the mobile client or the
 SPA so that changes to the UI are simplified. Even then, the mobile client or SPA
@@ -79,7 +79,7 @@ client / SPA must be coordinated with the deployment of the
 SCS. Essentially, this approach violates
 [no shared UI](/index.html#no-shared-ui).
 
-### Does the user interface of a SCS have to follow ROCA Principles?
+### Does the user interface of an SCS have to follow ROCA Principles?
 We believe [ROCA](http://roca-style.org) is a good approach for web
 front ends for SCSs because that approach makes it easy to combine UIs
 from several SCSs to one. You could also have one SPA per SCS, but
@@ -87,7 +87,7 @@ this means switching from one SCS/SPA to another one loads another
 application and you cannot easily share parts of the SPA/SCS in other
 SPAs/SCSs. That said, we don't rule out SPAs as a useful approach for some
 of the SCSs. However, even though we suggest to follow ROCA Principles,
-it is not mandatory to follow them to have a SCS.
+it is not mandatory to follow them to have an SCS.
 
 ### Can SCSs share a database?
 
@@ -105,14 +105,14 @@ and thereby save resources. Whether or not to connect all SCSs to the
 same database system or database cluster is one of the decisions that need
 to be made as part of the macro architecture.
 
-### Should a SCS be split by layer?
+### Should an SCS be split by layer?
 
 SCS makes no assumptions about how a system is built internally and
 about its deployables (such as frontend and backend). 
 This is fully up to each team's micro architecture decisions.
 
 However, it is recommended to minimize the number of deployables within
-a SCS to avoid network latency and complexity by managing internal APIs and
+an SCS to avoid network latency and complexity by managing internal APIs and
 remote communication safeguards.
 A good starting point is to have one stateless deployable containing UI and logic
 and a database for persistent data.
